@@ -1,0 +1,26 @@
+{
+  "eds": {
+    "core": {
+      "sizing": {
+        "cta": {
+          "height": {
+            "medium": {
+              "value": "36",
+              "type": "sizing"
+            },
+            "large": {
+              "value": "44",
+              "type": "sizing"
+            }
+          }
+        },
+        "icon": {
+          "default": {
+            "value": "24",
+            "type": "sizing"
+          }
+        }
+      }
+    }
+  }
+}
