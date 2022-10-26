@@ -3,20 +3,39 @@
     "semantic": {
       "cta": {
         "label": {
-          "value": {
-            "fontSizes": "{fontSize.2}",
-            "lineHeights": "{lineHeight.tight.2}",
-            "verticalPadding": "({eds.core.sizing.icon.default} - {lineHeight.tight.2}) / 2",
-            "horizontalPadding": "{spacing.4}",
-            "itemSpacing": "{spacing.0}"
+          "medium": {
+            "value": {
+              "fontSizes": "{fontSize.2}",
+              "lineHeights": "{lineHeight.tight.2}",
+              "verticalPadding": "({eds.core.sizing.icon.default} - {lineHeight.tight.2}) / 2",
+              "horizontalPadding": "{spacing.4}",
+              "itemSpacing": "{spacing.0}"
+            },
+            "type": "composition"
           },
-          "type": "composition"
+          "large": {
+            "value": {
+              "fontSizes": "{fontSize.3}",
+              "lineHeights": "{lineHeight.tight.3}",
+              "verticalPadding": "({eds.core.sizing.icon.default} - {lineHeight.tight.3}) / 2",
+              "horizontalPadding": "{spacing.4}",
+              "itemSpacing": "{spacing.0}"
+            },
+            "type": "composition"
+          }
         },
         "container": {
           "medium": {
             "value": {
               "horizontalPadding": "{spacing.12}",
-              "verticalPadding": "({eds.core.sizing.cta.height.medium} - ({eds.semantic.cta.label.lineHeights} + {eds.semantic.cta.label.verticalPadding} * 2)) / 2"
+              "verticalPadding": "({eds.core.sizing.cta.height.medium} - ({eds.semantic.cta.label.medium.lineHeights} + {eds.semantic.cta.label.medium.verticalPadding} * 2)) / 2"
+            },
+            "type": "composition"
+          },
+          "large": {
+            "value": {
+              "horizontalPadding": "{spacing.12}",
+              "verticalPadding": "({eds.core.sizing.cta.height.large} - ({eds.semantic.cta.label.large.lineHeights} + {eds.semantic.cta.label.large.verticalPadding} * 2)) / 2"
             },
             "type": "composition"
           }
