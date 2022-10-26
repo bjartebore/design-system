@@ -7,7 +7,7 @@
             "value": {
               "fontSizes": "{eds.core.fontSize.2}",
               "lineHeights": "{eds.core.lineHeight.tight.2}",
-              "verticalPadding": "({eds.core.sizing.icon.default} - {lineHeight.tight.2}) / 2",
+              "verticalPadding": "({eds.core.sizing.icon.default} - {eds.core.lineHeight.tight.2}) / 2",
               "horizontalPadding": "{eds.core.spacing.4}",
               "itemSpacing": "{eds.core.spacing.0}"
             },
@@ -17,7 +17,7 @@
             "value": {
               "fontSizes": "{eds.core.fontSize.3}",
               "lineHeights": "{eds.core.lineHeight.tight.3}",
-              "verticalPadding": "({eds.core.sizing.icon.default} - {lineHeight.tight.3}) / 2",
+              "verticalPadding": "({eds.core.sizing.icon.default} - {eds.core.lineHeight.tight.3}) / 2",
               "horizontalPadding": "{eds.core.spacing.4}",
               "itemSpacing": "{eds.core.spacing.0}"
             },
