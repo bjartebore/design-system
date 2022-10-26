@@ -1,5 +1,5 @@
 {
-  "eds:": {
+  "eds": {
     "core": {
       "spacing": {
         "0": {
@@ -87,7 +87,7 @@
           "type": "spacing"
         }
       },
-      "eds.core.grid": {
+      "grid": {
         "0": {
           "value": "{eds.core.grid.base}*0",
           "type": "other"
