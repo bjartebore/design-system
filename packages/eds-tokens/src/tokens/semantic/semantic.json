@@ -48,6 +48,44 @@
                 "type": "color"
               }
             }
+          },
+          "text": {
+            "primary": {
+              "enabled": {
+                "value": "deeppink",
+                "type": "color"
+              }
+            }
+          },
+          "primary": {
+            "enabled": {
+              "background": {
+                "value": "orange",
+                "type": "color"
+              },
+              "text": {
+                "value": "deeppink",
+                "type": "color"
+              },
+              "borderColor": {
+                "value": "maroon",
+                "type": "color"
+              }
+            }
+          }
+        },
+        "border": {
+          "width": {
+            "value": "2",
+            "type": "borderWidth"
+          },
+          "color": {
+            "primary": {
+              "enabled": {
+                "value": "maroon",
+                "type": "color"
+              }
+            }
           }
         }
       }
