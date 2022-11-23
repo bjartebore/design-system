@@ -1,0 +1,164 @@
+{
+  "eds": {
+    "button": {
+      "primary": {
+        "filled": {
+          "borderWidth": {
+            "value": "0",
+            "type": "borderWidth"
+          },
+          "default": {
+            "background-color": {
+              "value": "marroon",
+              "type": "color"
+            },
+            "foreground-color": {
+              "value": "pink",
+              "type": "color"
+            }
+          },
+          "hover": {
+            "background-color": {
+              "value": "violet",
+              "type": "color"
+            },
+            "foreground-color": {
+              "value": "pink",
+              "type": "color"
+            }
+          },
+          "disabled": {
+            "background-color": {
+              "value": "silver",
+              "type": "color"
+            },
+            "foreground-color": {
+              "value": "gray",
+              "type": "color"
+            }
+          },
+          "loading": {
+            "background-color": {
+              "value": "lime",
+              "type": "color"
+            },
+            "foreground-color": {
+              "value": "orange",
+              "type": "color"
+            }
+          }
+        },
+        "outlined": {
+          "borderWidth": {
+            "value": "1",
+            "type": "borderWidth"
+          },
+          "default": {
+            "background-color": {
+              "value": "marroon",
+              "type": "color"
+            },
+            "foreground-color": {
+              "value": "pink",
+              "type": "color"
+            }
+          },
+          "hover": {
+            "background-color": {
+              "value": "violet",
+              "type": "color"
+            },
+            "foreground-color": {
+              "value": "pink",
+              "type": "color"
+            }
+          },
+          "disabled": {
+            "background-color": {
+              "value": "silver",
+              "type": "color"
+            },
+            "foreground-color": {
+              "value": "gray",
+              "type": "color"
+            }
+          },
+          "loading": {
+            "background-color": {
+              "value": "lime",
+              "type": "color"
+            },
+            "foreground-color": {
+              "value": "orange",
+              "type": "color"
+            }
+          }
+        },
+        "ghost": {
+          "borderWidth": {
+            "value": "0",
+            "type": "borderWidth"
+          },
+          "default": {
+            "background-color": {
+              "value": "marroon",
+              "type": "color"
+            },
+            "foreground-color": {
+              "value": "pink",
+              "type": "color"
+            }
+          },
+          "hover": {
+            "background-color": {
+              "value": "violet",
+              "type": "color"
+            },
+            "foreground-color": {
+              "value": "pink",
+              "type": "color"
+            }
+          },
+          "disabled": {
+            "background-color": {
+              "value": "silver",
+              "type": "color"
+            },
+            "foreground-color": {
+              "value": "gray",
+              "type": "color"
+            }
+          },
+          "loading": {
+            "background-color": {
+              "value": "lime",
+              "type": "color"
+            },
+            "foreground-color": {
+              "value": "orange",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "container": {
+        "value": {
+          "horizontalPadding": "{eds.core.spacing.12}",
+          "verticalPadding": "({eds.core.sizing.cta.height.medium} - ({eds.semantic.cta.label.medium.lineHeights} + {eds.semantic.cta.label.medium.verticalPadding} * 2)) / 2",
+          "itemSpacing": "{eds.core.spacing.0}",
+          "borderRadius": "5"
+        },
+        "type": "composition"
+      },
+      "label": {
+        "value": {
+          "horizontalPadding": "{eds.core.spacing.4}",
+          "verticalPadding": "({eds.core.sizing.icon.default} - {eds.core.lineHeight.tight.2}) / 2",
+          "itemSpacing": "{eds.core.spacing.0}",
+          "typography": "{eds.semantic.typography.label.default}"
+        },
+        "type": "composition"
+      }
+    }
+  }
+}
