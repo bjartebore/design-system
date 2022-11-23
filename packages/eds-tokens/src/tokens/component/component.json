@@ -1,0 +1,31 @@
+{
+  "eds": {
+    "component": {
+      "button": {
+        "primary": {
+          "container": {
+            "default": {
+              "value": {
+                "horizontalPadding": "{eds.core.spacing.12}",
+                "verticalPadding": "({eds.core.sizing.cta.height.medium} - ({eds.semantic.cta.label.medium.lineHeights} + {eds.semantic.cta.label.medium.verticalPadding} * 2)) / 2",
+                "fill": "{eds.core.color.mossgreen.100}"
+              },
+              "type": "composition"
+            }
+          },
+          "label": {
+            "default": {
+              "value": {
+                "verticalPadding": "({eds.core.sizing.icon.default} - {eds.core.lineHeight.tight.2}) / 2",
+                "horizontalPadding": "{eds.core.spacing.4}",
+                "itemSpacing": "{eds.core.spacing.0}",
+                "typography": "{eds.semantic.typography.label.default}"
+              },
+              "type": "composition"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -88,6 +88,34 @@
             }
           }
         }
+      },
+      "color": {
+        "primary": {
+          "value": "teal",
+          "type": "color"
+        }
+      },
+      "typography": {
+        "label": {
+          "default": {
+            "value": {
+              "fontFamily": "{eds.core.fontFamily.default}",
+              "fontWeight": "{eds.core.fontWeight.medium}",
+              "fontSize": "{eds.core.fontSize.2}",
+              "lineHeight": "{eds.core.lineHeight.tight.2}",
+              "paragraphSpacing": "{eds.core.paragraphSpacing.0}"
+            },
+            "type": "typography"
+          }
+        }
+      },
+      "spacing": {
+        "label": {
+          "default": {
+            "value": "{eds.core.spacing.4} {{eds.core.spacing.4} * 2}",
+            "type": "spacing"
+          }
+        }
       }
     }
   }
