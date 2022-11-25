@@ -1,6 +1,26 @@
 {
   "eds": {
     "semantic": {
+      "color": {
+        "bg": {
+          "disabled": {
+            "value": "silver",
+            "type": "color",
+            "description": "The background colour of buttons, tabs, menu items etc."
+          }
+        },
+        "fg": {
+          "default": {
+            "value": "gray",
+            "type": "color",
+            "description": "Default text and icon colour"
+          },
+          "disabled": {
+            "value": "gray",
+            "type": "color"
+          }
+        }
+      },
       "cta": {
         "label": {
           "medium": {
@@ -40,40 +60,6 @@
             "type": "composition"
           }
         },
-        "color": {
-          "background": {
-            "primary": {
-              "enabled": {
-                "value": "orange",
-                "type": "color"
-              }
-            }
-          },
-          "text": {
-            "primary": {
-              "enabled": {
-                "value": "teal",
-                "type": "color"
-              }
-            }
-          },
-          "primary": {
-            "enabled": {
-              "background": {
-                "value": "orange",
-                "type": "color"
-              },
-              "text": {
-                "value": "deeppink",
-                "type": "color"
-              },
-              "borderColor": {
-                "value": "maroon",
-                "type": "color"
-              }
-            }
-          }
-        },
         "border": {
           "width": {
             "value": "2",
@@ -87,12 +73,6 @@
               }
             }
           }
-        }
-      },
-      "color": {
-        "primary": {
-          "value": "teal",
-          "type": "color"
         }
       },
       "typography": {
@@ -109,14 +89,14 @@
           }
         }
       },
-      "spacing": {
-        "label": {
-          "default": {
-            "value": "{eds.core.spacing.4} {{eds.core.spacing.4} * 2}",
-            "type": "spacing"
-          }
+      "label": {
+        "default": {
+          "value": "{eds.core.spacing.4} {{eds.core.spacing.4} * 2}",
+          "type": "spacing"
         }
-      }
+      },
+      "container": {},
+      "navigation": {}
     }
   }
 }
