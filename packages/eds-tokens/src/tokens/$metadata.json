@@ -6,12 +6,12 @@
     "core/spacing",
     "core/color",
     "semantic/semantic",
-    "component/component",
     "theme/default",
     "theme/comfortable",
     "theme/compact",
     "theme/light",
     "theme/dark",
-    "debug"
+    "debug",
+    "component/button"
   ]
 }
