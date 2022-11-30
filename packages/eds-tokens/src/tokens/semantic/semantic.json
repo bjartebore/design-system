@@ -49,8 +49,8 @@
             "value": {
               "fontSizes": "{eds.core.fontSize.2}",
               "lineHeights": "{eds.core.lineHeight.tight.2}",
-              "paddingBottom": "roundTo({eds.core.spacing.4} - ({eds.core.lineHeight.tight.2} - {eds.core.const.capHeight.rounded.2}) / 2)",
-              "paddingTop": "{eds.core.spacing.4} * 2 + {eds.core.grid.base} * ceil({eds.core.const.capHeight.rounded.2} / {eds.core.grid.base}) - {eds.core.lineHeight.tight.2} - roundTo({eds.core.spacing.4} - ({eds.core.lineHeight.tight.2} - {eds.core.const.capHeight.rounded.2}) / 2)",
+              "paddingBottom": "roundTo({eds.core.spacing.4} - ({eds.core.lineHeight.tight.2} - {eds.core.capHeight.rounded.2}) / 2)",
+              "paddingTop": "{eds.core.spacing.4} * 2 + {eds.core.grid.base} * ceil({eds.core.capHeight.rounded.2} / {eds.core.grid.base}) - {eds.core.lineHeight.tight.2} - roundTo({eds.core.spacing.4} - ({eds.core.lineHeight.tight.2} - {eds.core.capHeight.rounded.2}) / 2)",
               "horizontalPadding": "{eds.core.spacing.4}",
               "itemSpacing": "{eds.core.spacing.0}"
             },
@@ -59,9 +59,9 @@
           "large": {
             "value": {
               "fontSizes": "{eds.core.fontSize.3}",
-              "eds.core.lineHeights": "{eds.core.eds.core.lineHeight.tight.3}",
-              "paddingBottom": "roundTo({eds.core.spacing.4} - ({eds.core.lineHeight.tight.3} - {eds.core.const.capHeight.rounded.3}) / 2)",
-              "paddingTop": "{eds.core.spacing.4} * 2 + {eds.core.const.grid.base} * ceil({eds.core.const.capHeight.rounded.3} / {eds.core.const.grid.base}) - {eds.core.lineHeight.tight.3} - roundTo({eds.core.spacing.4} - ({eds.core.lineHeight.tight.3} - {eds.core.const.capHeight.rounded.3}) / 2)",
+              "lineHeights": "{eds.core.lineHeight.tight.2}",
+              "paddingBottom": "roundTo({eds.core.spacing.4} - ({eds.core.lineHeight.tight.3} - {eds.core.capHeight.rounded.2}) / 2)",
+              "paddingTop": "{eds.core.spacing.4} * 2 + {eds.core.grid.base} * ceil({eds.core.capHeight.rounded.3} / {eds.core.grid.base}) - {eds.core.lineHeight.tight.3} - roundTo({eds.core.spacing.4} - ({eds.core.lineHeight.tight.3} - {eds.core.capHeight.rounded.3}) / 2)",
               "horizontalPadding": "{eds.core.spacing.4}",
               "itemSpacing": "{eds.core.spacing.0}"
             },
