@@ -2,6 +2,11 @@
   "eds": {
     "core": {
       "const": {
+        "capHeight": {
+          "value": "0.7",
+          "type": "other",
+          "description": "The cap height of the Equinor typeface (0.7em)"
+        },
         "r": {
           "value": "2",
           "type": "other",
