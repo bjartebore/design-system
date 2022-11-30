@@ -779,82 +779,82 @@
           "description": "The cap height of the Equinor font in typescale 0, rounded to the nearest integer"
         },
         "1": {
-          "value": "roundTo({fontSize.1} * {const.capHeight})",
+          "value": "roundTo({fontSize.1} * {const.eds.core.capHeight})",
           "type": "other"
         },
         "2": {
-          "value": "roundTo({fontSize.2} * {const.capHeight})",
+          "value": "roundTo({fontSize.2} * {const.eds.core.capHeight})",
           "type": "other"
         },
         "3": {
-          "value": "roundTo({fontSize.3} * {const.capHeight})",
+          "value": "roundTo({fontSize.3} * {const.eds.core.capHeight})",
           "type": "other"
         },
         "4": {
-          "value": "roundTo({fontSize.4} * {const.capHeight})",
+          "value": "roundTo({fontSize.4} * {const.eds.core.capHeight})",
           "type": "other"
         },
         "5": {
-          "value": "roundTo({fontSize.5} * {const.capHeight})",
+          "value": "roundTo({fontSize.5} * {const.eds.core.capHeight})",
           "type": "other"
         },
         "6": {
-          "value": "roundTo({fontSize.6} * {const.capHeight})",
+          "value": "roundTo({fontSize.6} * {const.eds.core.capHeight})",
           "type": "other"
         },
         "7": {
-          "value": "roundTo({fontSize.7} * {const.capHeight})",
+          "value": "roundTo({fontSize.7} * {const.eds.core.capHeight})",
           "type": "other"
         },
         "8": {
-          "value": "roundTo({fontSize.8} * {const.capHeight})",
+          "value": "roundTo({fontSize.8} * {const.eds.core.capHeight})",
           "type": "other"
         },
         "9": {
-          "value": "roundTo({fontSize.9} * {const.capHeight})",
+          "value": "roundTo({fontSize.9} * {const.eds.core.capHeight})",
           "type": "other"
         }
       },
-      "snappedToGrid": {
+      "snappedToeds.core.grid": {
         "0": {
-          "value": "{grid.base} * ceil({capHeight.rounded.0} / {grid.base})",
+          "value": "{eds.core.grid.base} * ceil({eds.core.capHeight.rounded.0} / {eds.core.grid.base})",
           "type": "other",
-          "description": "The cap height of the Equinor font in typescale 0, rounded to the nearest grid line"
+          "description": "The cap height of the Equinor font in typescale 0, rounded to the nearest eds.core.grid line"
         },
         "1": {
-          "value": "{grid.base} * ceil({capHeight.rounded.1} / {grid.base})",
+          "value": "{eds.core.grid.base} * ceil({eds.core.capHeight.rounded.1} / {eds.core.grid.base})",
           "type": "other"
         },
         "2": {
-          "value": "{grid.base} * ceil({capHeight.rounded.2} / {grid.base})",
+          "value": "{eds.core.grid.base} * ceil({eds.core.capHeight.rounded.2} / {eds.core.grid.base})",
           "type": "other"
         },
         "3": {
-          "value": "{grid.base} * ceil({capHeight.rounded.3} / {grid.base})",
+          "value": "{eds.core.grid.base} * ceil({eds.core.capHeight.rounded.3} / {eds.core.grid.base})",
           "type": "other"
         },
         "4": {
-          "value": "{grid.base} * ceil({capHeight.rounded.4} / {grid.base})",
+          "value": "{eds.core.grid.base} * ceil({eds.core.capHeight.rounded.4} / {eds.core.grid.base})",
           "type": "other"
         },
         "5": {
-          "value": "{grid.base} * ceil({capHeight.rounded.5} / {grid.base})",
+          "value": "{eds.core.grid.base} * ceil({eds.core.capHeight.rounded.5} / {eds.core.grid.base})",
           "type": "other"
         },
         "6": {
-          "value": "{grid.base} * ceil({capHeight.rounded.6} / {grid.base})",
+          "value": "{eds.core.grid.base} * ceil({eds.core.capHeight.rounded.6} / {eds.core.grid.base})",
           "type": "other"
         },
         "7": {
-          "value": "{grid.base} * ceil({capHeight.rounded.7} / {grid.base})",
+          "value": "{eds.core.grid.base} * ceil({eds.core.capHeight.rounded.7} / {eds.core.grid.base})",
           "type": "other"
         },
         "8": {
-          "value": "{grid.base} * ceil({capHeight.rounded.8} / {grid.base})",
+          "value": "{eds.core.grid.base} * ceil({eds.core.capHeight.rounded.8} / {eds.core.grid.base})",
           "type": "other"
         },
         "9": {
-          "value": "{grid.base} * ceil({capHeight.rounded.9} / {grid.base})",
+          "value": "{eds.core.grid.base} * ceil({eds.core.capHeight.rounded.9} / {eds.core.grid.base})",
           "type": "other"
         }
       }
