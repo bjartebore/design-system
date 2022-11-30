@@ -12,6 +12,7 @@
     "theme/light",
     "theme/dark",
     "debug",
-    "component/button"
+    "component/button",
+    "component/buttonAlt"
   ]
 }

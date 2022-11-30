@@ -1,7 +1,6 @@
 {
   "eds": {
     "buttonAlt2": {
-      "props": {},
       "state": {
         "disabled": {
           "backgroundColor": {
@@ -166,9 +165,7 @@
               }
             }
           }
-        },
-        "secondary": {},
-        "danger": {}
+        }
       },
       "elements": {
         "container": {

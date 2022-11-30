@@ -21,56 +21,54 @@
           }
         }
       },
-      "cta": {
-        "label": {
-          "medium": {
-            "value": {
-              "fontSizes": "{eds.core.fontSize.2}",
-              "lineHeights": "{eds.core.lineHeight.tight.2}",
-              "verticalPadding": "({eds.core.sizing.icon.default} - {eds.core.lineHeight.tight.2}) / 2",
-              "horizontalPadding": "{eds.core.spacing.4}",
-              "itemSpacing": "{eds.core.spacing.0}"
-            },
-            "type": "composition"
+      "label": {
+        "medium": {
+          "value": {
+            "fontSizes": "{eds.core.fontSize.2}",
+            "lineHeights": "{eds.core.lineHeight.tight.2}",
+            "verticalPadding": "({eds.core.sizing.icon.default} - {eds.core.lineHeight.tight.2}) / 2",
+            "horizontalPadding": "{eds.core.spacing.4}",
+            "itemSpacing": "{eds.core.spacing.0}"
           },
-          "large": {
-            "value": {
-              "fontSizes": "{eds.core.fontSize.3}",
-              "lineHeights": "{eds.core.lineHeight.tight.3}",
-              "verticalPadding": "({eds.core.sizing.icon.default} - {eds.core.lineHeight.tight.3}) / 2",
-              "horizontalPadding": "{eds.core.spacing.4}",
-              "itemSpacing": "{eds.core.spacing.0}"
-            },
-            "type": "composition"
-          }
+          "type": "composition"
         },
-        "container": {
-          "medium": {
-            "value": {
-              "horizontalPadding": "{eds.core.spacing.12}",
-              "verticalPadding": "({eds.core.sizing.cta.height.medium} - ({eds.semantic.cta.label.medium.lineHeights} + {eds.semantic.cta.label.medium.verticalPadding} * 2)) / 2"
-            },
-            "type": "composition"
+        "large": {
+          "value": {
+            "fontSizes": "{eds.core.fontSize.3}",
+            "lineHeights": "{eds.core.lineHeight.tight.3}",
+            "verticalPadding": "({eds.core.sizing.icon.default} - {eds.core.lineHeight.tight.3}) / 2",
+            "horizontalPadding": "{eds.core.spacing.4}",
+            "itemSpacing": "{eds.core.spacing.0}"
           },
-          "large": {
-            "value": {
-              "horizontalPadding": "{eds.core.spacing.12}",
-              "verticalPadding": "({eds.core.sizing.cta.height.large} - ({eds.semantic.cta.label.large.lineHeights} + {eds.semantic.cta.label.large.verticalPadding} * 2)) / 2"
-            },
-            "type": "composition"
-          }
+          "type": "composition"
+        }
+      },
+      "container": {
+        "medium": {
+          "value": {
+            "horizontalPadding": "{eds.core.spacing.12}",
+            "verticalPadding": "({eds.core.sizing.cta.height.medium} - ({eds.semantic.label.medium.lineHeights} + {eds.semantic.label.medium.verticalPadding} * 2)) / 2"
+          },
+          "type": "composition"
         },
-        "border": {
-          "width": {
-            "value": "2",
-            "type": "borderWidth"
+        "large": {
+          "value": {
+            "horizontalPadding": "{eds.core.spacing.12}",
+            "verticalPadding": "({eds.core.sizing.cta.height.large} - ({eds.semantic.label.large.lineHeights} + {eds.semantic.label.large.verticalPadding} * 2)) / 2"
           },
-          "color": {
-            "primary": {
-              "enabled": {
-                "value": "maroon",
-                "type": "color"
-              }
+          "type": "composition"
+        }
+      },
+      "border": {
+        "width": {
+          "value": "2",
+          "type": "borderWidth"
+        },
+        "color": {
+          "primary": {
+            "enabled": {
+              "value": "maroon",
+              "type": "color"
             }
           }
         }
@@ -89,14 +87,14 @@
           }
         }
       },
-      "label": {
-        "default": {
-          "value": "{eds.core.spacing.4} {{eds.core.spacing.4} * 2}",
-          "type": "spacing"
+      "sizing": {
+        "icon": {
+          "default": {
+            "value": "24",
+            "type": "sizing"
+          }
         }
-      },
-      "container": {},
-      "navigation": {}
+      }
     }
   }
 }
