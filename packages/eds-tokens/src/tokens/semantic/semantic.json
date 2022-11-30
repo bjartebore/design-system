@@ -73,14 +73,14 @@
         "medium": {
           "value": {
             "horizontalPadding": "{eds.core.spacing.12}",
-            "verticalPadding": "({eds.core.sizing.cta.height.medium} - ({eds.semantic.label.offGrid.medium.lineHeights} + {eds.semantic.label.medium.offGrid.verticalPadding} * 2)) / 2"
+            "verticalPadding": "({eds.core.sizing.cta.height.medium} - ({eds.semantic.label.offGrid.medium.lineHeights} + {eds.semantic.label.offGrid.medium.verticalPadding} * 2)) / 2"
           },
           "type": "composition"
         },
         "large": {
           "value": {
             "horizontalPadding": "{eds.core.spacing.12}",
-            "verticalPadding": "({eds.core.sizing.cta.height.large} - ({eds.semantic.label.large.lineHeights} + {eds.semantic.label.large.verticalPadding} * 2)) / 2"
+            "verticalPadding": "({eds.core.sizing.cta.height.large} - ({eds.semantic.label.offGrid.large.lineHeights} + {eds.semantic.label.offGrid.large.verticalPadding} * 2)) / 2"
           },
           "type": "composition"
         }

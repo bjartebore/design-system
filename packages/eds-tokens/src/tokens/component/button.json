@@ -150,7 +150,7 @@
       "container": {
         "value": {
           "horizontalPadding": "{eds.core.spacing.12}",
-          "verticalPadding": "({eds.core.sizing.cta.height.medium} - ({eds.semantic.cta.label.medium.lineHeights} + {eds.semantic.cta.label.medium.verticalPadding} * 2)) / 2",
+          "verticalPadding": "({eds.core.sizing.cta.height.medium} - ({eds.semantic.label.medium.lineHeights} + {eds.semantic.label.medium.verticalPadding} * 2)) / 2",
           "itemSpacing": "{eds.core.spacing.0}",
           "borderRadius": "5"
         },
