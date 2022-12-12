@@ -1,0 +1,320 @@
+{
+  "core": {
+    "container": {
+      "compressed": {
+        "onGrid": {
+          "verticalPadding12": {
+            "fs0": {
+              "value": {
+                "paddingBottom": "roundTo(12 - ({lineHeight.compressed.0} - {capHeight.rounded.0}) / 2)",
+                "paddingTop": "12 * 2 + {const.grid} * ceil({capHeight.rounded.0} / {const.grid}) - {lineHeight.compressed.0} - roundTo(12 - ({lineHeight.compressed.0} - {capHeight.rounded.0}) / 2)",
+                "typography": "{typography.compressed.0}"
+              },
+              "type": "composition"
+            },
+            "fs1": {
+              "value": {
+                "paddingBottom": "roundTo(12 - ({lineHeight.compressed.1} - {capHeight.rounded.1}) / 2)",
+                "paddingTop": "12 * 2 + {const.grid} * ceil({capHeight.rounded.1} / {const.grid}) - {lineHeight.compressed.1} - roundTo(12 - ({lineHeight.compressed.1} - {capHeight.rounded.1}) / 2)",
+                "typography": "{typography.compressed.1}"
+              },
+              "type": "composition"
+            },
+            "fs2": {
+              "value": {
+                "paddingBottom": "roundTo(12 - ({lineHeight.compressed.2} - {capHeight.rounded.2}) / 2)",
+                "paddingTop": "12 * 2 + {const.grid} * ceil({capHeight.rounded.2} / {const.grid}) - {lineHeight.compressed.2} - roundTo(12 - ({lineHeight.compressed.2} - {capHeight.rounded.2}) / 2)",
+                "typography": "{typography.compressed.2}"
+              },
+              "type": "composition"
+            },
+            "fs3": {
+              "value": {
+                "paddingBottom": "roundTo(12 - ({lineHeight.compressed.3} - {capHeight.rounded.3}) / 2)",
+                "paddingTop": "12 * 2 + {const.grid} * ceil({capHeight.rounded.3} / {const.grid}) - {lineHeight.compressed.3} - roundTo(12 - ({lineHeight.compressed.3} - {capHeight.rounded.3}) / 2)",
+                "typography": "{typography.compressed.3}"
+              },
+              "type": "composition"
+            },
+            "fs4": {
+              "value": {
+                "paddingBottom": "roundTo(12 - ({lineHeight.compressed.4} - {capHeight.rounded.4}) / 2)",
+                "paddingTop": "12 * 2 + {const.grid} * ceil({capHeight.rounded.4} / {const.grid}) - {lineHeight.compressed.4} - roundTo(12 - ({lineHeight.compressed.4} - {capHeight.rounded.4}) / 2)",
+                "typography": "{typography.compressed.4}"
+              },
+              "type": "composition"
+            },
+            "fs5": {
+              "value": {
+                "paddingBottom": "roundTo(12 - ({lineHeight.compressed.5} - {capHeight.rounded.5}) / 2)",
+                "paddingTop": "12 * 2 + {const.grid} * ceil({capHeight.rounded.5} / {const.grid}) - {lineHeight.compressed.5} - roundTo(12 - ({lineHeight.compressed.5} - {capHeight.rounded.5}) / 2)",
+                "typography": "{typography.compressed.5}"
+              },
+              "type": "composition"
+            },
+            "fs6": {
+              "value": {
+                "paddingBottom": "roundTo(12 - ({lineHeight.compressed.6} - {capHeight.rounded.6}) / 2)",
+                "paddingTop": "12 * 2 + {const.grid} * ceil({capHeight.rounded.6} / {const.grid}) - {lineHeight.compressed.6} - roundTo(12 - ({lineHeight.compressed.6} - {capHeight.rounded.6}) / 2)",
+                "typography": "{typography.compressed.6}"
+              },
+              "type": "composition"
+            },
+            "fs7": {
+              "value": {
+                "paddingBottom": "roundTo(12 - ({lineHeight.compressed.7} - {capHeight.rounded.7}) / 2)",
+                "paddingTop": "12 * 2 + {const.grid} * ceil({capHeight.rounded.7} / {const.grid}) - {lineHeight.compressed.7} - roundTo(12 - ({lineHeight.compressed.7} - {capHeight.rounded.7}) / 2)",
+                "typography": "{typography.compressed.7}"
+              },
+              "type": "composition"
+            },
+            "fs8": {
+              "value": {
+                "paddingBottom": "roundTo(12 - ({lineHeight.compressed.8} - {capHeight.rounded.8}) / 2)",
+                "paddingTop": "12 * 2 + {const.grid} * ceil({capHeight.rounded.8} / {const.grid}) - {lineHeight.compressed.8} - roundTo(12 - ({lineHeight.compressed.8} - {capHeight.rounded.8}) / 2)",
+                "typography": "{typography.compressed.8}"
+              },
+              "type": "composition"
+            },
+            "fs9": {
+              "value": {
+                "paddingBottom": "roundTo(12 - ({lineHeight.compressed.9} - {capHeight.rounded.9}) / 2)",
+                "paddingTop": "12 * 2 + {const.grid} * ceil({capHeight.rounded.9} / {const.grid}) - {lineHeight.compressed.9} - roundTo(12 - ({lineHeight.compressed.9} - {capHeight.rounded.9}) / 2)",
+                "typography": "{typography.compressed.9}"
+              },
+              "type": "composition"
+            }
+          },
+          "verticalPadding16": {
+            "fs0": {
+              "value": {
+                "paddingBottom": "roundTo(16 - ({lineHeight.compressed.0} - {capHeight.rounded.0}) / 2)",
+                "paddingTop": "16 * 2 + {const.grid} * ceil({capHeight.rounded.0} / {const.grid}) - {lineHeight.compressed.0} - roundTo(16 - ({lineHeight.compressed.0} - {capHeight.rounded.0}) / 2)",
+                "typography": "{typography.compressed.0}"
+              },
+              "type": "composition"
+            },
+            "fs1": {
+              "value": {
+                "paddingBottom": "roundTo(16 - ({lineHeight.compressed.1} - {capHeight.rounded.1}) / 2)",
+                "paddingTop": "16 * 2 + {const.grid} * ceil({capHeight.rounded.1} / {const.grid}) - {lineHeight.compressed.1} - roundTo(16 - ({lineHeight.compressed.1} - {capHeight.rounded.1}) / 2)",
+                "typography": "{typography.compressed.1}"
+              },
+              "type": "composition"
+            },
+            "fs2": {
+              "value": {
+                "paddingBottom": "roundTo(16 - ({lineHeight.compressed.2} - {capHeight.rounded.2}) / 2)",
+                "paddingTop": "16 * 2 + {const.grid} * ceil({capHeight.rounded.2} / {const.grid}) - {lineHeight.compressed.2} - roundTo(16 - ({lineHeight.compressed.2} - {capHeight.rounded.2}) / 2)",
+                "typography": "{typography.compressed.2}"
+              },
+              "type": "composition"
+            },
+            "fs3": {
+              "value": {
+                "paddingBottom": "roundTo(16 - ({lineHeight.compressed.3} - {capHeight.rounded.3}) / 2)",
+                "paddingTop": "16 * 2 + {const.grid} * ceil({capHeight.rounded.3} / {const.grid}) - {lineHeight.compressed.3} - roundTo(16 - ({lineHeight.compressed.3} - {capHeight.rounded.3}) / 2)",
+                "typography": "{typography.compressed.3}"
+              },
+              "type": "composition"
+            },
+            "fs4": {
+              "value": {
+                "paddingBottom": "roundTo(16 - ({lineHeight.compressed.4} - {capHeight.rounded.4}) / 2)",
+                "paddingTop": "16 * 2 + {const.grid} * ceil({capHeight.rounded.4} / {const.grid}) - {lineHeight.compressed.4} - roundTo(16 - ({lineHeight.compressed.4} - {capHeight.rounded.4}) / 2)",
+                "typography": "{typography.compressed.4}"
+              },
+              "type": "composition"
+            },
+            "fs5": {
+              "value": {
+                "paddingBottom": "roundTo(16 - ({lineHeight.compressed.5} - {capHeight.rounded.5}) / 2)",
+                "paddingTop": "16 * 2 + {const.grid} * ceil({capHeight.rounded.5} / {const.grid}) - {lineHeight.compressed.5} - roundTo(16 - ({lineHeight.compressed.5} - {capHeight.rounded.5}) / 2)",
+                "typography": "{typography.compressed.5}"
+              },
+              "type": "composition"
+            },
+            "fs6": {
+              "value": {
+                "paddingBottom": "roundTo(16 - ({lineHeight.compressed.6} - {capHeight.rounded.6}) / 2)",
+                "paddingTop": "16 * 2 + {const.grid} * ceil({capHeight.rounded.6} / {const.grid}) - {lineHeight.compressed.6} - roundTo(16 - ({lineHeight.compressed.6} - {capHeight.rounded.6}) / 2)",
+                "typography": "{typography.compressed.6}"
+              },
+              "type": "composition"
+            },
+            "fs7": {
+              "value": {
+                "paddingBottom": "roundTo(16 - ({lineHeight.compressed.7} - {capHeight.rounded.7}) / 2)",
+                "paddingTop": "16 * 2 + {const.grid} * ceil({capHeight.rounded.7} / {const.grid}) - {lineHeight.compressed.7} - roundTo(16 - ({lineHeight.compressed.7} - {capHeight.rounded.7}) / 2)",
+                "typography": "{typography.compressed.7}"
+              },
+              "type": "composition"
+            },
+            "fs8": {
+              "value": {
+                "paddingBottom": "roundTo(16 - ({lineHeight.compressed.8} - {capHeight.rounded.8}) / 2)",
+                "paddingTop": "16 * 2 + {const.grid} * ceil({capHeight.rounded.8} / {const.grid}) - {lineHeight.compressed.8} - roundTo(16 - ({lineHeight.compressed.8} - {capHeight.rounded.8}) / 2)",
+                "typography": "{typography.compressed.8}"
+              },
+              "type": "composition"
+            },
+            "fs9": {
+              "value": {
+                "paddingBottom": "roundTo(16 - ({lineHeight.compressed.9} - {capHeight.rounded.9}) / 2)",
+                "paddingTop": "16 * 2 + {const.grid} * ceil({capHeight.rounded.9} / {const.grid}) - {lineHeight.compressed.9} - roundTo(16 - ({lineHeight.compressed.9} - {capHeight.rounded.9}) / 2)",
+                "typography": "{typography.compressed.9}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "offGrid": {
+          "verticalPadding12": {
+            "fs0": {
+              "value": {
+                "verticalPadding": "(12 * 2 + {capHeight.snappedToGrid.0} - {lineHeight.compressed.0}) / 2",
+                "typography": "{typography.compressed.0}"
+              },
+              "type": "composition"
+            },
+            "fs1": {
+              "value": {
+                "verticalPadding": "(12 * 2 + {capHeight.snappedToGrid.1} - {lineHeight.compressed.1}) / 2",
+                "typography": "{typography.compressed.1}"
+              },
+              "type": "composition"
+            },
+            "fs2": {
+              "value": {
+                "verticalPadding": "(12 * 2 + {capHeight.snappedToGrid.2} - {lineHeight.compressed.2}) / 2",
+                "typography": "{typography.compressed.2}"
+              },
+              "type": "composition"
+            },
+            "fs3": {
+              "value": {
+                "verticalPadding": "(12 * 2 + {capHeight.snappedToGrid.3} - {lineHeight.compressed.3}) / 2",
+                "typography": "{typography.compressed.3}"
+              },
+              "type": "composition"
+            },
+            "fs4": {
+              "value": {
+                "verticalPadding": "(12 * 2 + {capHeight.snappedToGrid.4} - {lineHeight.compressed.4}) / 2",
+                "typography": "{typography.compressed.4}"
+              },
+              "type": "composition"
+            },
+            "fs5": {
+              "value": {
+                "verticalPadding": "(12 * 2 + {capHeight.snappedToGrid.5} - {lineHeight.compressed.5}) / 2",
+                "typography": "{typography.compressed.5}"
+              },
+              "type": "composition"
+            },
+            "fs6": {
+              "value": {
+                "verticalPadding": "(12 * 2 + {capHeight.snappedToGrid.6} - {lineHeight.compressed.6}) / 2",
+                "typography": "{typography.compressed.6}"
+              },
+              "type": "composition"
+            },
+            "fs7": {
+              "value": {
+                "verticalPadding": "(12 * 2 + {capHeight.snappedToGrid.7} - {lineHeight.compressed.7}) / 2",
+                "typography": "{typography.compressed.7}"
+              },
+              "type": "composition"
+            },
+            "fs8": {
+              "value": {
+                "verticalPadding": "(12 * 2 + {capHeight.snappedToGrid.8} - {lineHeight.compressed.8}) / 2",
+                "typography": "{typography.compressed.8}"
+              },
+              "type": "composition"
+            },
+            "fs9": {
+              "value": {
+                "verticalPadding": "(12 * 2 + {capHeight.snappedToGrid.9} - {lineHeight.compressed.9}) / 2",
+                "typography": "{typography.compressed.9}"
+              },
+              "type": "composition"
+            }
+          },
+          "verticalPadding16": {
+            "fs0": {
+              "value": {
+                "verticalPadding": "(16 * 2 + {capHeight.snappedToGrid.0} - {lineHeight.compressed.0}) / 2",
+                "typography": "{typography.compressed.0}"
+              },
+              "type": "composition"
+            },
+            "fs1": {
+              "value": {
+                "verticalPadding": "(16 * 2 + {capHeight.snappedToGrid.1} - {lineHeight.compressed.1}) / 2",
+                "typography": "{typography.compressed.1}"
+              },
+              "type": "composition"
+            },
+            "fs2": {
+              "value": {
+                "verticalPadding": "(16 * 2 + {capHeight.snappedToGrid.2} - {lineHeight.compressed.2}) / 2",
+                "typography": "{typography.compressed.2}"
+              },
+              "type": "composition"
+            },
+            "fs3": {
+              "value": {
+                "verticalPadding": "(16 * 2 + {capHeight.snappedToGrid.3} - {lineHeight.compressed.3}) / 2",
+                "typography": "{typography.compressed.3}"
+              },
+              "type": "composition"
+            },
+            "fs4": {
+              "value": {
+                "verticalPadding": "(16 * 2 + {capHeight.snappedToGrid.4} - {lineHeight.compressed.4}) / 2",
+                "typography": "{typography.compressed.4}"
+              },
+              "type": "composition"
+            },
+            "fs5": {
+              "value": {
+                "verticalPadding": "(16 * 2 + {capHeight.snappedToGrid.5} - {lineHeight.compressed.5}) / 2",
+                "typography": "{typography.compressed.5}"
+              },
+              "type": "composition"
+            },
+            "fs6": {
+              "value": {
+                "verticalPadding": "(16 * 2 + {capHeight.snappedToGrid.6} - {lineHeight.compressed.6}) / 2",
+                "typography": "{typography.compressed.6}"
+              },
+              "type": "composition"
+            },
+            "fs7": {
+              "value": {
+                "verticalPadding": "(16 * 2 + {capHeight.snappedToGrid.7} - {lineHeight.compressed.7}) / 2",
+                "typography": "{typography.compressed.7}"
+              },
+              "type": "composition"
+            },
+            "fs8": {
+              "value": {
+                "verticalPadding": "(16 * 2 + {capHeight.snappedToGrid.8} - {lineHeight.compressed.8}) / 2",
+                "typography": "{typography.compressed.8}"
+              },
+              "type": "composition"
+            },
+            "fs9": {
+              "value": {
+                "verticalPadding": "(16 * 2 + {capHeight.snappedToGrid.9} - {lineHeight.compressed.9}) / 2",
+                "typography": "{typography.compressed.9}"
+              },
+              "type": "composition"
+            }
+          }
+        }
+      }
+    }
+  }
+}
