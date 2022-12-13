@@ -89,87 +89,87 @@
       },
       "grid": {
         "0": {
-          "value": "{eds.core.grid.base}*0",
+          "value": "{eds.core.const.grid}*0",
           "type": "other"
         },
         "1": {
-          "value": "{eds.core.grid.base}*1",
+          "value": "{eds.core.const.grid}*1",
           "type": "other"
         },
         "2": {
-          "value": "{eds.core.grid.base}*2",
+          "value": "{eds.core.const.grid}*2",
           "type": "other"
         },
         "3": {
-          "value": "{eds.core.grid.base}*3",
+          "value": "{eds.core.const.grid}*3",
           "type": "other"
         },
         "4": {
-          "value": "{eds.core.grid.base}*4",
+          "value": "{eds.core.const.grid}*4",
           "type": "other"
         },
         "5": {
-          "value": "{eds.core.grid.base}*5",
+          "value": "{eds.core.const.grid}*5",
           "type": "other"
         },
         "6": {
-          "value": "{eds.core.grid.base}*6",
+          "value": "{eds.core.const.grid}*6",
           "type": "other"
         },
         "7": {
-          "value": "{eds.core.grid.base}*7",
+          "value": "{eds.core.const.grid}*7",
           "type": "other"
         },
         "8": {
-          "value": "{eds.core.grid.base}*8",
+          "value": "{eds.core.const.grid}*8",
           "type": "other"
         },
         "9": {
-          "value": "{eds.core.grid.base}*9",
+          "value": "{eds.core.const.grid}*9",
           "type": "other"
         },
         "10": {
-          "value": "{eds.core.grid.base}*10",
+          "value": "{eds.core.const.grid}*10",
           "type": "other"
         },
         "11": {
-          "value": "{eds.core.grid.base}*11",
+          "value": "{eds.core.const.grid}*11",
           "type": "other"
         },
         "12": {
-          "value": "{eds.core.grid.base}*12",
+          "value": "{eds.core.const.grid}*12",
           "type": "other"
         },
         "13": {
-          "value": "{eds.core.grid.base}*13",
+          "value": "{eds.core.const.grid}*13",
           "type": "other"
         },
         "14": {
-          "value": "{eds.core.grid.base}*14",
+          "value": "{eds.core.const.grid}*14",
           "type": "other"
         },
         "15": {
-          "value": "{eds.core.grid.base}*15",
+          "value": "{eds.core.const.grid}*15",
           "type": "other"
         },
         "16": {
-          "value": "{eds.core.grid.base}*16",
+          "value": "{eds.core.const.grid}*16",
           "type": "other"
         },
         "17": {
-          "value": "{eds.core.grid.base}*17",
+          "value": "{eds.core.const.grid}*17",
           "type": "other"
         },
         "18": {
-          "value": "{eds.core.grid.base}*18",
+          "value": "{eds.core.const.grid}*18",
           "type": "other"
         },
         "19": {
-          "value": "{eds.core.grid.base}*19",
+          "value": "{eds.core.const.grid}*19",
           "type": "other"
         },
         "20": {
-          "value": "{eds.core.grid.base}*20",
+          "value": "{eds.core.const.grid}*20",
           "type": "other"
         }
       }

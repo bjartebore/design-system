@@ -21,10 +21,8 @@
           "value": "5",
           "type": "other",
           "description": "Number of notes"
-        }
-      },
-      "grid": {
-        "base": {
+        },
+        "grid": {
           "value": "4",
           "type": "other"
         }
