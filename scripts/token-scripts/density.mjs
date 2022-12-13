@@ -36,7 +36,7 @@ const template = (density, snapped, vertSpace, typeScale) => ({
     ...(snapped
       ? verticalSnapped(density, vertSpace, typeScale)
       : verticalCentered(density, vertSpace, typeScale)),
-    typography: `{typography.${density}.${typeScale}}`,
+    typography: `{eds.core.typography.${density}.${typeScale}}`,
     itemSpacing: 0,
   },
   type: type.COMPOSITION,

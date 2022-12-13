@@ -10,7 +10,7 @@
                   "value": {
                     "paddingBottom": "roundTo(12 - ({eds.core.lineHeight.compressed.0} - {eds.core.capHeight.rounded.0}) / 2)",
                     "paddingTop": "12 * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.0} / {eds.core.const.grid}) - {eds.core.lineHeight.compressed.0} - roundTo(12 - ({eds.core.lineHeight.compressed.0} - {eds.core.capHeight.rounded.0}) / 2)",
-                    "typography": "{typography.compressed.0}",
+                    "typography": "{eds.core.typography.compressed.0}",
                     "itemSpacing": 0
                   },
                   "type": "composition"
@@ -19,7 +19,7 @@
                   "value": {
                     "paddingBottom": "roundTo(12 - ({eds.core.lineHeight.compressed.1} - {eds.core.capHeight.rounded.1}) / 2)",
                     "paddingTop": "12 * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.1} / {eds.core.const.grid}) - {eds.core.lineHeight.compressed.1} - roundTo(12 - ({eds.core.lineHeight.compressed.1} - {eds.core.capHeight.rounded.1}) / 2)",
-                    "typography": "{typography.compressed.1}",
+                    "typography": "{eds.core.typography.compressed.1}",
                     "itemSpacing": 0
                   },
                   "type": "composition"
@@ -28,7 +28,7 @@
                   "value": {
                     "paddingBottom": "roundTo(12 - ({eds.core.lineHeight.compressed.2} - {eds.core.capHeight.rounded.2}) / 2)",
                     "paddingTop": "12 * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.2} / {eds.core.const.grid}) - {eds.core.lineHeight.compressed.2} - roundTo(12 - ({eds.core.lineHeight.compressed.2} - {eds.core.capHeight.rounded.2}) / 2)",
-                    "typography": "{typography.compressed.2}",
+                    "typography": "{eds.core.typography.compressed.2}",
                     "itemSpacing": 0
                   },
                   "type": "composition"
@@ -37,7 +37,7 @@
                   "value": {
                     "paddingBottom": "roundTo(12 - ({eds.core.lineHeight.compressed.3} - {eds.core.capHeight.rounded.3}) / 2)",
                     "paddingTop": "12 * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.3} / {eds.core.const.grid}) - {eds.core.lineHeight.compressed.3} - roundTo(12 - ({eds.core.lineHeight.compressed.3} - {eds.core.capHeight.rounded.3}) / 2)",
-                    "typography": "{typography.compressed.3}",
+                    "typography": "{eds.core.typography.compressed.3}",
                     "itemSpacing": 0
                   },
                   "type": "composition"
@@ -46,7 +46,7 @@
                   "value": {
                     "paddingBottom": "roundTo(12 - ({eds.core.lineHeight.compressed.4} - {eds.core.capHeight.rounded.4}) / 2)",
                     "paddingTop": "12 * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.4} / {eds.core.const.grid}) - {eds.core.lineHeight.compressed.4} - roundTo(12 - ({eds.core.lineHeight.compressed.4} - {eds.core.capHeight.rounded.4}) / 2)",
-                    "typography": "{typography.compressed.4}",
+                    "typography": "{eds.core.typography.compressed.4}",
                     "itemSpacing": 0
                   },
                   "type": "composition"
@@ -55,7 +55,7 @@
                   "value": {
                     "paddingBottom": "roundTo(12 - ({eds.core.lineHeight.compressed.5} - {eds.core.capHeight.rounded.5}) / 2)",
                     "paddingTop": "12 * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.5} / {eds.core.const.grid}) - {eds.core.lineHeight.compressed.5} - roundTo(12 - ({eds.core.lineHeight.compressed.5} - {eds.core.capHeight.rounded.5}) / 2)",
-                    "typography": "{typography.compressed.5}",
+                    "typography": "{eds.core.typography.compressed.5}",
                     "itemSpacing": 0
                   },
                   "type": "composition"
@@ -64,7 +64,7 @@
                   "value": {
                     "paddingBottom": "roundTo(12 - ({eds.core.lineHeight.compressed.6} - {eds.core.capHeight.rounded.6}) / 2)",
                     "paddingTop": "12 * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.6} / {eds.core.const.grid}) - {eds.core.lineHeight.compressed.6} - roundTo(12 - ({eds.core.lineHeight.compressed.6} - {eds.core.capHeight.rounded.6}) / 2)",
-                    "typography": "{typography.compressed.6}",
+                    "typography": "{eds.core.typography.compressed.6}",
                     "itemSpacing": 0
                   },
                   "type": "composition"
@@ -73,7 +73,7 @@
                   "value": {
                     "paddingBottom": "roundTo(12 - ({eds.core.lineHeight.compressed.7} - {eds.core.capHeight.rounded.7}) / 2)",
                     "paddingTop": "12 * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.7} / {eds.core.const.grid}) - {eds.core.lineHeight.compressed.7} - roundTo(12 - ({eds.core.lineHeight.compressed.7} - {eds.core.capHeight.rounded.7}) / 2)",
-                    "typography": "{typography.compressed.7}",
+                    "typography": "{eds.core.typography.compressed.7}",
                     "itemSpacing": 0
                   },
                   "type": "composition"
@@ -82,7 +82,7 @@
                   "value": {
                     "paddingBottom": "roundTo(12 - ({eds.core.lineHeight.compressed.8} - {eds.core.capHeight.rounded.8}) / 2)",
                     "paddingTop": "12 * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.8} / {eds.core.const.grid}) - {eds.core.lineHeight.compressed.8} - roundTo(12 - ({eds.core.lineHeight.compressed.8} - {eds.core.capHeight.rounded.8}) / 2)",
-                    "typography": "{typography.compressed.8}",
+                    "typography": "{eds.core.typography.compressed.8}",
                     "itemSpacing": 0
                   },
                   "type": "composition"
@@ -91,7 +91,7 @@
                   "value": {
                     "paddingBottom": "roundTo(12 - ({eds.core.lineHeight.compressed.9} - {eds.core.capHeight.rounded.9}) / 2)",
                     "paddingTop": "12 * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.9} / {eds.core.const.grid}) - {eds.core.lineHeight.compressed.9} - roundTo(12 - ({eds.core.lineHeight.compressed.9} - {eds.core.capHeight.rounded.9}) / 2)",
-                    "typography": "{typography.compressed.9}",
+                    "typography": "{eds.core.typography.compressed.9}",
                     "itemSpacing": 0
                   },
                   "type": "composition"
@@ -102,7 +102,7 @@
                   "value": {
                     "paddingBottom": "roundTo(16 - ({eds.core.lineHeight.compressed.0} - {eds.core.capHeight.rounded.0}) / 2)",
                     "paddingTop": "16 * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.0} / {eds.core.const.grid}) - {eds.core.lineHeight.compressed.0} - roundTo(16 - ({eds.core.lineHeight.compressed.0} - {eds.core.capHeight.rounded.0}) / 2)",
-                    "typography": "{typography.compressed.0}",
+                    "typography": "{eds.core.typography.compressed.0}",
                     "itemSpacing": 0
                   },
                   "type": "composition"
@@ -111,7 +111,7 @@
                   "value": {
                     "paddingBottom": "roundTo(16 - ({eds.core.lineHeight.compressed.1} - {eds.core.capHeight.rounded.1}) / 2)",
                     "paddingTop": "16 * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.1} / {eds.core.const.grid}) - {eds.core.lineHeight.compressed.1} - roundTo(16 - ({eds.core.lineHeight.compressed.1} - {eds.core.capHeight.rounded.1}) / 2)",
-                    "typography": "{typography.compressed.1}",
+                    "typography": "{eds.core.typography.compressed.1}",
                     "itemSpacing": 0
                   },
                   "type": "composition"
@@ -120,7 +120,7 @@
                   "value": {
                     "paddingBottom": "roundTo(16 - ({eds.core.lineHeight.compressed.2} - {eds.core.capHeight.rounded.2}) / 2)",
                     "paddingTop": "16 * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.2} / {eds.core.const.grid}) - {eds.core.lineHeight.compressed.2} - roundTo(16 - ({eds.core.lineHeight.compressed.2} - {eds.core.capHeight.rounded.2}) / 2)",
-                    "typography": "{typography.compressed.2}",
+                    "typography": "{eds.core.typography.compressed.2}",
                     "itemSpacing": 0
                   },
                   "type": "composition"
@@ -129,7 +129,7 @@
                   "value": {
                     "paddingBottom": "roundTo(16 - ({eds.core.lineHeight.compressed.3} - {eds.core.capHeight.rounded.3}) / 2)",
                     "paddingTop": "16 * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.3} / {eds.core.const.grid}) - {eds.core.lineHeight.compressed.3} - roundTo(16 - ({eds.core.lineHeight.compressed.3} - {eds.core.capHeight.rounded.3}) / 2)",
-                    "typography": "{typography.compressed.3}",
+                    "typography": "{eds.core.typography.compressed.3}",
                     "itemSpacing": 0
                   },
                   "type": "composition"
@@ -138,7 +138,7 @@
                   "value": {
                     "paddingBottom": "roundTo(16 - ({eds.core.lineHeight.compressed.4} - {eds.core.capHeight.rounded.4}) / 2)",
                     "paddingTop": "16 * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.4} / {eds.core.const.grid}) - {eds.core.lineHeight.compressed.4} - roundTo(16 - ({eds.core.lineHeight.compressed.4} - {eds.core.capHeight.rounded.4}) / 2)",
-                    "typography": "{typography.compressed.4}",
+                    "typography": "{eds.core.typography.compressed.4}",
                     "itemSpacing": 0
                   },
                   "type": "composition"
@@ -147,7 +147,7 @@
                   "value": {
                     "paddingBottom": "roundTo(16 - ({eds.core.lineHeight.compressed.5} - {eds.core.capHeight.rounded.5}) / 2)",
                     "paddingTop": "16 * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.5} / {eds.core.const.grid}) - {eds.core.lineHeight.compressed.5} - roundTo(16 - ({eds.core.lineHeight.compressed.5} - {eds.core.capHeight.rounded.5}) / 2)",
-                    "typography": "{typography.compressed.5}",
+                    "typography": "{eds.core.typography.compressed.5}",
                     "itemSpacing": 0
                   },
                   "type": "composition"
@@ -156,7 +156,7 @@
                   "value": {
                     "paddingBottom": "roundTo(16 - ({eds.core.lineHeight.compressed.6} - {eds.core.capHeight.rounded.6}) / 2)",
                     "paddingTop": "16 * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.6} / {eds.core.const.grid}) - {eds.core.lineHeight.compressed.6} - roundTo(16 - ({eds.core.lineHeight.compressed.6} - {eds.core.capHeight.rounded.6}) / 2)",
-                    "typography": "{typography.compressed.6}",
+                    "typography": "{eds.core.typography.compressed.6}",
                     "itemSpacing": 0
                   },
                   "type": "composition"
@@ -165,7 +165,7 @@
                   "value": {
                     "paddingBottom": "roundTo(16 - ({eds.core.lineHeight.compressed.7} - {eds.core.capHeight.rounded.7}) / 2)",
                     "paddingTop": "16 * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.7} / {eds.core.const.grid}) - {eds.core.lineHeight.compressed.7} - roundTo(16 - ({eds.core.lineHeight.compressed.7} - {eds.core.capHeight.rounded.7}) / 2)",
-                    "typography": "{typography.compressed.7}",
+                    "typography": "{eds.core.typography.compressed.7}",
                     "itemSpacing": 0
                   },
                   "type": "composition"
@@ -174,7 +174,7 @@
                   "value": {
                     "paddingBottom": "roundTo(16 - ({eds.core.lineHeight.compressed.8} - {eds.core.capHeight.rounded.8}) / 2)",
                     "paddingTop": "16 * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.8} / {eds.core.const.grid}) - {eds.core.lineHeight.compressed.8} - roundTo(16 - ({eds.core.lineHeight.compressed.8} - {eds.core.capHeight.rounded.8}) / 2)",
-                    "typography": "{typography.compressed.8}",
+                    "typography": "{eds.core.typography.compressed.8}",
                     "itemSpacing": 0
                   },
                   "type": "composition"
@@ -183,7 +183,7 @@
                   "value": {
                     "paddingBottom": "roundTo(16 - ({eds.core.lineHeight.compressed.9} - {eds.core.capHeight.rounded.9}) / 2)",
                     "paddingTop": "16 * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.9} / {eds.core.const.grid}) - {eds.core.lineHeight.compressed.9} - roundTo(16 - ({eds.core.lineHeight.compressed.9} - {eds.core.capHeight.rounded.9}) / 2)",
-                    "typography": "{typography.compressed.9}",
+                    "typography": "{eds.core.typography.compressed.9}",
                     "itemSpacing": 0
                   },
                   "type": "composition"
@@ -195,7 +195,7 @@
                 "0": {
                   "value": {
                     "verticalPadding": "(12 * 2 + {eds.core.capHeight.snappedToGrid.0} - {eds.core.lineHeight.compressed.0}) / 2",
-                    "typography": "{typography.compressed.0}",
+                    "typography": "{eds.core.typography.compressed.0}",
                     "itemSpacing": 0
                   },
                   "type": "composition"
@@ -203,7 +203,7 @@
                 "1": {
                   "value": {
                     "verticalPadding": "(12 * 2 + {eds.core.capHeight.snappedToGrid.1} - {eds.core.lineHeight.compressed.1}) / 2",
-                    "typography": "{typography.compressed.1}",
+                    "typography": "{eds.core.typography.compressed.1}",
                     "itemSpacing": 0
                   },
                   "type": "composition"
@@ -211,7 +211,7 @@
                 "2": {
                   "value": {
                     "verticalPadding": "(12 * 2 + {eds.core.capHeight.snappedToGrid.2} - {eds.core.lineHeight.compressed.2}) / 2",
-                    "typography": "{typography.compressed.2}",
+                    "typography": "{eds.core.typography.compressed.2}",
                     "itemSpacing": 0
                   },
                   "type": "composition"
@@ -219,7 +219,7 @@
                 "3": {
                   "value": {
                     "verticalPadding": "(12 * 2 + {eds.core.capHeight.snappedToGrid.3} - {eds.core.lineHeight.compressed.3}) / 2",
-                    "typography": "{typography.compressed.3}",
+                    "typography": "{eds.core.typography.compressed.3}",
                     "itemSpacing": 0
                   },
                   "type": "composition"
@@ -227,7 +227,7 @@
                 "4": {
                   "value": {
                     "verticalPadding": "(12 * 2 + {eds.core.capHeight.snappedToGrid.4} - {eds.core.lineHeight.compressed.4}) / 2",
-                    "typography": "{typography.compressed.4}",
+                    "typography": "{eds.core.typography.compressed.4}",
                     "itemSpacing": 0
                   },
                   "type": "composition"
@@ -235,7 +235,7 @@
                 "5": {
                   "value": {
                     "verticalPadding": "(12 * 2 + {eds.core.capHeight.snappedToGrid.5} - {eds.core.lineHeight.compressed.5}) / 2",
-                    "typography": "{typography.compressed.5}",
+                    "typography": "{eds.core.typography.compressed.5}",
                     "itemSpacing": 0
                   },
                   "type": "composition"
@@ -243,7 +243,7 @@
                 "6": {
                   "value": {
                     "verticalPadding": "(12 * 2 + {eds.core.capHeight.snappedToGrid.6} - {eds.core.lineHeight.compressed.6}) / 2",
-                    "typography": "{typography.compressed.6}",
+                    "typography": "{eds.core.typography.compressed.6}",
                     "itemSpacing": 0
                   },
                   "type": "composition"
@@ -251,7 +251,7 @@
                 "7": {
                   "value": {
                     "verticalPadding": "(12 * 2 + {eds.core.capHeight.snappedToGrid.7} - {eds.core.lineHeight.compressed.7}) / 2",
-                    "typography": "{typography.compressed.7}",
+                    "typography": "{eds.core.typography.compressed.7}",
                     "itemSpacing": 0
                   },
                   "type": "composition"
@@ -259,7 +259,7 @@
                 "8": {
                   "value": {
                     "verticalPadding": "(12 * 2 + {eds.core.capHeight.snappedToGrid.8} - {eds.core.lineHeight.compressed.8}) / 2",
-                    "typography": "{typography.compressed.8}",
+                    "typography": "{eds.core.typography.compressed.8}",
                     "itemSpacing": 0
                   },
                   "type": "composition"
@@ -267,7 +267,7 @@
                 "9": {
                   "value": {
                     "verticalPadding": "(12 * 2 + {eds.core.capHeight.snappedToGrid.9} - {eds.core.lineHeight.compressed.9}) / 2",
-                    "typography": "{typography.compressed.9}",
+                    "typography": "{eds.core.typography.compressed.9}",
                     "itemSpacing": 0
                   },
                   "type": "composition"
@@ -277,7 +277,7 @@
                 "0": {
                   "value": {
                     "verticalPadding": "(16 * 2 + {eds.core.capHeight.snappedToGrid.0} - {eds.core.lineHeight.compressed.0}) / 2",
-                    "typography": "{typography.compressed.0}",
+                    "typography": "{eds.core.typography.compressed.0}",
                     "itemSpacing": 0
                   },
                   "type": "composition"
@@ -285,7 +285,7 @@
                 "1": {
                   "value": {
                     "verticalPadding": "(16 * 2 + {eds.core.capHeight.snappedToGrid.1} - {eds.core.lineHeight.compressed.1}) / 2",
-                    "typography": "{typography.compressed.1}",
+                    "typography": "{eds.core.typography.compressed.1}",
                     "itemSpacing": 0
                   },
                   "type": "composition"
@@ -293,7 +293,7 @@
                 "2": {
                   "value": {
                     "verticalPadding": "(16 * 2 + {eds.core.capHeight.snappedToGrid.2} - {eds.core.lineHeight.compressed.2}) / 2",
-                    "typography": "{typography.compressed.2}",
+                    "typography": "{eds.core.typography.compressed.2}",
                     "itemSpacing": 0
                   },
                   "type": "composition"
@@ -301,7 +301,7 @@
                 "3": {
                   "value": {
                     "verticalPadding": "(16 * 2 + {eds.core.capHeight.snappedToGrid.3} - {eds.core.lineHeight.compressed.3}) / 2",
-                    "typography": "{typography.compressed.3}",
+                    "typography": "{eds.core.typography.compressed.3}",
                     "itemSpacing": 0
                   },
                   "type": "composition"
@@ -309,7 +309,7 @@
                 "4": {
                   "value": {
                     "verticalPadding": "(16 * 2 + {eds.core.capHeight.snappedToGrid.4} - {eds.core.lineHeight.compressed.4}) / 2",
-                    "typography": "{typography.compressed.4}",
+                    "typography": "{eds.core.typography.compressed.4}",
                     "itemSpacing": 0
                   },
                   "type": "composition"
@@ -317,7 +317,7 @@
                 "5": {
                   "value": {
                     "verticalPadding": "(16 * 2 + {eds.core.capHeight.snappedToGrid.5} - {eds.core.lineHeight.compressed.5}) / 2",
-                    "typography": "{typography.compressed.5}",
+                    "typography": "{eds.core.typography.compressed.5}",
                     "itemSpacing": 0
                   },
                   "type": "composition"
@@ -325,7 +325,7 @@
                 "6": {
                   "value": {
                     "verticalPadding": "(16 * 2 + {eds.core.capHeight.snappedToGrid.6} - {eds.core.lineHeight.compressed.6}) / 2",
-                    "typography": "{typography.compressed.6}",
+                    "typography": "{eds.core.typography.compressed.6}",
                     "itemSpacing": 0
                   },
                   "type": "composition"
@@ -333,7 +333,7 @@
                 "7": {
                   "value": {
                     "verticalPadding": "(16 * 2 + {eds.core.capHeight.snappedToGrid.7} - {eds.core.lineHeight.compressed.7}) / 2",
-                    "typography": "{typography.compressed.7}",
+                    "typography": "{eds.core.typography.compressed.7}",
                     "itemSpacing": 0
                   },
                   "type": "composition"
@@ -341,7 +341,7 @@
                 "8": {
                   "value": {
                     "verticalPadding": "(16 * 2 + {eds.core.capHeight.snappedToGrid.8} - {eds.core.lineHeight.compressed.8}) / 2",
-                    "typography": "{typography.compressed.8}",
+                    "typography": "{eds.core.typography.compressed.8}",
                     "itemSpacing": 0
                   },
                   "type": "composition"
@@ -349,7 +349,7 @@
                 "9": {
                   "value": {
                     "verticalPadding": "(16 * 2 + {eds.core.capHeight.snappedToGrid.9} - {eds.core.lineHeight.compressed.9}) / 2",
-                    "typography": "{typography.compressed.9}",
+                    "typography": "{eds.core.typography.compressed.9}",
                     "itemSpacing": 0
                   },
                   "type": "composition"
