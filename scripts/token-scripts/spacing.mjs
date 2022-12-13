@@ -46,7 +46,7 @@ const data = (steps) => ({
           steps.map((step) => [
             step,
             {
-              value: `{eds.core.const.grid.base} * {eds.core.spacing.${step}}`,
+              value: `{eds.core.const.grid} * {eds.core.spacing.${step}}`,
               type: tokenType.OTHER,
             },
           ]),
