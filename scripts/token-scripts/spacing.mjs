@@ -1,92 +1,70 @@
 import { promises as fs } from 'fs'
-import { PATHS } from '../figma-broker/constants.js'
+import { BUILD_DIR, tokenType, gridResolution } from './constants.mjs'
 
-const density = {
-  TIGHT: 'tight',
-  COMPRESSED: 'compressed',
-  COMFORTABLE: 'comfortable',
-  RELAXED: 'relaxed',
-}
+const stepsNum = 25
 
-const numOfTypeScaleSteps = 10
-const gridResolution = 4
-const BUILD_DIR = `${PATHS.FIGMA}/readonly`
+const multByGrid = (num) => num * gridResolution
 
-const typeScale = [...Array(numOfTypeScaleSteps).keys()] // [0, 1, ... 9]
+const steps = [...Array(stepsNum).keys()]
 
-const spreadToGrid = (num) => num * gridResolution
-
-const spacing = [...Array(7).keys()].map(spreadToGrid) // [0, 4, 8, ... 24]
-
-const type = {
-  COMPOSITION: 'composition',
-}
-
-const verticalSnapped = (density, spacing, typeScale) => ({
-  paddingBottom: `roundTo(${spacing} - ({lineHeight.${density}.${typeScale}} - {capHeight.rounded.${typeScale}}) / 2)`,
-  paddingTop: `${spacing} * 2 + {const.grid} * ceil({capHeight.rounded.${typeScale}} / {const.grid}) - {lineHeight.${density}.${typeScale}} - roundTo(${spacing} - ({lineHeight.${density}.${typeScale}} - {capHeight.rounded.${typeScale}}) / 2)`,
+const template = (itemSpacing) => (steps) => ({
+  [itemSpacing]: Object.fromEntries(
+    steps
+      .slice(1, 7)
+      .map(multByGrid)
+      .map((step) => [
+        step,
+        {
+          value: {
+            horizontalPadding: `{eds.core.spacing.step.${step}}`,
+            verticalPadding: 0,
+            itemSpacing,
+          },
+          type: tokenType.COMPOSITION,
+        },
+      ]),
+  ),
 })
 
-const verticalCentered = (density, spacing, typeScale) => ({
-  verticalPadding: `(${spacing} * 2 + {capHeight.snappedToGrid.${typeScale}} - {lineHeight.${density}.${typeScale}}) / 2`,
-})
+const is0template = template(0)
+const is4template = template(4)
 
-const template = (density, snapped, vertSpace, typeScale) => ({
-  value: {
-    ...(snapped
-      ? verticalSnapped(density, vertSpace, typeScale)
-      : verticalCentered(density, vertSpace, typeScale)),
-    typography: `{typography.${density}.${typeScale}}`,
-  },
-  type: type.COMPOSITION,
-})
-
-const data = (density) => ({
-  core: {
-    container: {
-      [density]: {
-        onGrid: Object.fromEntries(
-          spacing
-            .slice(3, 5)
-            .map((vertSpace) => [
-              `verticalPadding${vertSpace}`,
-              Object.fromEntries(
-                typeScale.map((type) => [
-                  `fs${type}`,
-                  template(density, true, vertSpace, type),
-                ]),
-              ),
-            ]),
+const data = (steps) => ({
+  eds: {
+    core: {
+      spacing: {
+        step: Object.fromEntries(
+          steps.map((step) => [
+            step,
+            {
+              value: step.toString(),
+              type: tokenType.SPACING,
+            },
+          ]),
         ),
-        offGrid: Object.fromEntries(
-          spacing
-            .slice(3, 5)
-            .map((vertSpace) => [
-              `verticalPadding${vertSpace}`,
-              Object.fromEntries(
-                typeScale.map((type) => [
-                  `fs${type}`,
-                  template(density, false, vertSpace, type),
-                ]),
-              ),
-            ]),
+        grid: Object.fromEntries(
+          steps.map((step) => [
+            step,
+            {
+              value: `{eds.core.const.grid.base} * {eds.core.spacing.${step}}`,
+              type: tokenType.OTHER,
+            },
+          ]),
         ),
+        inline: { ...is0template(steps), ...is4template(steps) },
       },
     },
   },
 })
 
-async function writeToFile(density) {
+async function writeToFile() {
   await fs.writeFile(
-    `${BUILD_DIR}/${density}.json`,
-    JSON.stringify(data(density), null, 2),
+    `${BUILD_DIR}/spacing.json`,
+    JSON.stringify(data(steps), null, 2),
     {
       encoding: 'utf-8',
     },
   )
 }
 
-writeToFile(density.TIGHT)
-writeToFile(density.COMPRESSED)
-// writeToFile(density.COMFORTABLE)
-// writeToFile(density.RELAXED)
+writeToFile()
