@@ -87,10 +87,12 @@
           }
         },
         "element": {
-          "value": {
-            "typography": "{eds.core.spacing.block.tight.offGrid.verticalPadding12.3.typography}"
-          },
-          "type": "composition"
+          "medium": {
+            "value": {
+              "typography": "{eds.core.spacing.block.tight.offGrid.verticalPadding12.3.typography}"
+            },
+            "type": "composition"
+          }
         }
       },
       "border": {
