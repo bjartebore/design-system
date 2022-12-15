@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "47fba3f4d48465dc1274f68aad8452b7dfe5d303",
+    "name": "default",
+    "selectedTokenSets": {
+      "core/const": "enabled",
+      "core/typography": "enabled",
+      "core/sizing": "enabled",
+      "core/spacing": "enabled",
+      "core/color": "enabled",
+      "readonly/compressed": "enabled",
+      "readonly/spacing": "enabled",
+      "readonly/tight": "enabled",
+      "semantic/semantic": "enabled",
+      "theme/default": "disabled",
+      "theme/comfortable": "disabled",
+      "theme/compact": "disabled",
+      "theme/light": "disabled",
+      "theme/dark": "disabled",
+      "debug": "disabled",
+      "component/button": "enabled",
+      "component/buttonAlt": "disabled"
+    },
+    "$figmaStyleReferences": {}
+  }
+]

@@ -70,7 +70,7 @@
             }
           }
         },
-        "element": {
+        "xxx": {
           "medium": {
             "value": {
               "horizontalPadding": "{eds.core.spacing.step.12}",
@@ -85,6 +85,12 @@
             },
             "type": "composition"
           }
+        },
+        "element": {
+          "value": {
+            "typography": "{eds.core.spacing.block.tight.offGrid.verticalPadding12.3.typography}"
+          },
+          "type": "composition"
         }
       },
       "border": {
