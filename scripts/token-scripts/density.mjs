@@ -42,38 +42,32 @@ const template = (density, snapped, vertSpace, typeScale) => ({
   type: type.COMPOSITION,
 })
 
-const data = (density) => ({
+const createTokens = (snapped) => (density) => (vertSpace) => (typeScale) =>
+  Object.fromEntries(
+    spacing
+      .slice(3, 5)
+      .map((vertSpace) => [
+        `verticalPadding${vertSpace}`,
+        Object.fromEntries(
+          typeScale.map((type) => [
+            `${type}`,
+            template(density, snapped, vertSpace, type),
+          ]),
+        ),
+      ]),
+  )
+
+const createOnGridTokens = createTokens(true)
+const createOffGridTokens = createTokens(false)
+
+const data = (density, spacing, typeScale) => ({
   eds: {
     core: {
       spacing: {
         block: {
           [density]: {
-            onGrid: Object.fromEntries(
-              spacing
-                .slice(3, 5)
-                .map((vertSpace) => [
-                  `${vertSpace}`,
-                  Object.fromEntries(
-                    typeScale.map((type) => [
-                      `${type}`,
-                      template(density, true, vertSpace, type),
-                    ]),
-                  ),
-                ]),
-            ),
-            offGrid: Object.fromEntries(
-              spacing
-                .slice(3, 5)
-                .map((vertSpace) => [
-                  `${vertSpace}`,
-                  Object.fromEntries(
-                    typeScale.map((type) => [
-                      `${type}`,
-                      template(density, false, vertSpace, type),
-                    ]),
-                  ),
-                ]),
-            ),
+            onGrid: createOnGridTokens(density)(spacing)(typeScale),
+            offGrid: createOffGridTokens(density)(spacing)(typeScale),
           },
         },
       },
@@ -81,17 +75,19 @@ const data = (density) => ({
   },
 })
 
-async function writeToFile(density) {
+const writeToFile = (spacing) => (typeScale) => async (density) => {
   await fs.writeFile(
     `${BUILD_DIR}/${density}.json`,
-    JSON.stringify(data(density), null, 2),
+    JSON.stringify(data(density, spacing, typeScale), null, 2),
     {
       encoding: 'utf-8',
     },
   )
 }
 
-writeToFile(density.TIGHT)
-writeToFile(density.COMPRESSED)
+const writeTokensToFile = writeToFile(spacing)(typeScale)
+
+writeTokensToFile(density.TIGHT)
+writeTokensToFile(density.COMPRESSED)
 // writeToFile(density.COMFORTABLE)
 // writeToFile(density.RELAXED)

@@ -5,7 +5,7 @@
         "block": {
           "compressed": {
             "onGrid": {
-              "12": {
+              "verticalPadding12": {
                 "0": {
                   "value": {
                     "paddingBottom": "roundTo(12 - ({eds.core.lineHeight.compressed.0} - {eds.core.capHeight.rounded.0}) / 2)",
@@ -97,7 +97,7 @@
                   "type": "composition"
                 }
               },
-              "16": {
+              "verticalPadding16": {
                 "0": {
                   "value": {
                     "paddingBottom": "roundTo(16 - ({eds.core.lineHeight.compressed.0} - {eds.core.capHeight.rounded.0}) / 2)",
@@ -191,7 +191,7 @@
               }
             },
             "offGrid": {
-              "12": {
+              "verticalPadding12": {
                 "0": {
                   "value": {
                     "verticalPadding": "(12 * 2 + {eds.core.capHeight.snappedToGrid.0} - {eds.core.lineHeight.compressed.0}) / 2",
@@ -273,7 +273,7 @@
                   "type": "composition"
                 }
               },
-              "16": {
+              "verticalPadding16": {
                 "0": {
                   "value": {
                     "verticalPadding": "(16 * 2 + {eds.core.capHeight.snappedToGrid.0} - {eds.core.lineHeight.compressed.0}) / 2",

@@ -8,7 +8,7 @@ const multByGrid = (num) => num * gridResolution
 const steps = [...Array(stepsNum).keys()]
 
 const template = (itemSpacing) => (steps) => ({
-  [itemSpacing]: Object.fromEntries(
+  [`itemSpacing${itemSpacing}`]: Object.fromEntries(
     steps
       .slice(1, 7)
       .map(multByGrid)

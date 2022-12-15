@@ -207,102 +207,102 @@
           }
         },
         "inline": {
-          "0": {
+          "itemSpacing0": {
             "4": {
               "value": {
                 "horizontalPadding": "{eds.core.spacing.step.4}",
-                "verticalPadding": "0",
-                "itemSpacing": "0"
+                "verticalPadding": 0,
+                "itemSpacing": 0
               },
               "type": "composition"
             },
             "8": {
               "value": {
                 "horizontalPadding": "{eds.core.spacing.step.8}",
-                "verticalPadding": "0",
-                "itemSpacing": "0"
+                "verticalPadding": 0,
+                "itemSpacing": 0
               },
               "type": "composition"
             },
             "12": {
               "value": {
                 "horizontalPadding": "{eds.core.spacing.step.12}",
-                "verticalPadding": "0",
-                "itemSpacing": "0"
+                "verticalPadding": 0,
+                "itemSpacing": 0
               },
               "type": "composition"
             },
             "16": {
               "value": {
                 "horizontalPadding": "{eds.core.spacing.step.16}",
-                "verticalPadding": "0",
-                "itemSpacing": "0"
+                "verticalPadding": 0,
+                "itemSpacing": 0
               },
               "type": "composition"
             },
             "20": {
               "value": {
                 "horizontalPadding": "{eds.core.spacing.step.20}",
-                "verticalPadding": "0",
-                "itemSpacing": "0"
+                "verticalPadding": 0,
+                "itemSpacing": 0
               },
               "type": "composition"
             },
             "24": {
               "value": {
                 "horizontalPadding": "{eds.core.spacing.step.24}",
-                "verticalPadding": "0",
-                "itemSpacing": "0"
+                "verticalPadding": 0,
+                "itemSpacing": 0
               },
               "type": "composition"
             }
           },
-          "4": {
+          "itemSpacing4": {
             "4": {
               "value": {
                 "horizontalPadding": "{eds.core.spacing.step.4}",
-                "verticalPadding": "0",
-                "itemSpacing": "4"
+                "verticalPadding": 0,
+                "itemSpacing": 4
               },
               "type": "composition"
             },
             "8": {
               "value": {
                 "horizontalPadding": "{eds.core.spacing.step.8}",
-                "verticalPadding": "0",
-                "itemSpacing": "4"
+                "verticalPadding": 0,
+                "itemSpacing": 4
               },
               "type": "composition"
             },
             "12": {
               "value": {
                 "horizontalPadding": "{eds.core.spacing.step.12}",
-                "verticalPadding": "0",
-                "itemSpacing": "4"
+                "verticalPadding": 0,
+                "itemSpacing": 4
               },
               "type": "composition"
             },
             "16": {
               "value": {
                 "horizontalPadding": "{eds.core.spacing.step.16}",
-                "verticalPadding": "0",
-                "itemSpacing": "4"
+                "verticalPadding": 0,
+                "itemSpacing": 4
               },
               "type": "composition"
             },
             "20": {
               "value": {
                 "horizontalPadding": "{eds.core.spacing.step.20}",
-                "verticalPadding": "0",
-                "itemSpacing": "4"
+                "verticalPadding": 0,
+                "itemSpacing": 4
               },
               "type": "composition"
             },
             "24": {
               "value": {
                 "horizontalPadding": "{eds.core.spacing.step.24}",
-                "verticalPadding": "0",
-                "itemSpacing": "4"
+                "verticalPadding": 0,
+                "itemSpacing": 4
               },
               "type": "composition"
             }
