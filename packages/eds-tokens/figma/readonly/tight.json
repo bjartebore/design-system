@@ -10,6 +10,7 @@
                   "value": {
                     "paddingBottom": "roundTo(12 - ({eds.core.lineHeight.tight.0} - {eds.core.capHeight.rounded.0}) / 2)",
                     "paddingTop": "12 * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.0} / {eds.core.const.grid}) - {eds.core.lineHeight.tight.0} - roundTo(12 - ({eds.core.lineHeight.tight.0} - {eds.core.capHeight.rounded.0}) / 2)",
+                    "horizontalPadding": "0",
                     "typography": "{eds.core.typography.tight.0}",
                     "itemSpacing": 0
                   },
@@ -19,6 +20,7 @@
                   "value": {
                     "paddingBottom": "roundTo(12 - ({eds.core.lineHeight.tight.1} - {eds.core.capHeight.rounded.1}) / 2)",
                     "paddingTop": "12 * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.1} / {eds.core.const.grid}) - {eds.core.lineHeight.tight.1} - roundTo(12 - ({eds.core.lineHeight.tight.1} - {eds.core.capHeight.rounded.1}) / 2)",
+                    "horizontalPadding": "0",
                     "typography": "{eds.core.typography.tight.1}",
                     "itemSpacing": 0
                   },
@@ -28,6 +30,7 @@
                   "value": {
                     "paddingBottom": "roundTo(12 - ({eds.core.lineHeight.tight.2} - {eds.core.capHeight.rounded.2}) / 2)",
                     "paddingTop": "12 * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.2} / {eds.core.const.grid}) - {eds.core.lineHeight.tight.2} - roundTo(12 - ({eds.core.lineHeight.tight.2} - {eds.core.capHeight.rounded.2}) / 2)",
+                    "horizontalPadding": "0",
                     "typography": "{eds.core.typography.tight.2}",
                     "itemSpacing": 0
                   },
@@ -37,6 +40,7 @@
                   "value": {
                     "paddingBottom": "roundTo(12 - ({eds.core.lineHeight.tight.3} - {eds.core.capHeight.rounded.3}) / 2)",
                     "paddingTop": "12 * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.3} / {eds.core.const.grid}) - {eds.core.lineHeight.tight.3} - roundTo(12 - ({eds.core.lineHeight.tight.3} - {eds.core.capHeight.rounded.3}) / 2)",
+                    "horizontalPadding": "0",
                     "typography": "{eds.core.typography.tight.3}",
                     "itemSpacing": 0
                   },
@@ -46,6 +50,7 @@
                   "value": {
                     "paddingBottom": "roundTo(12 - ({eds.core.lineHeight.tight.4} - {eds.core.capHeight.rounded.4}) / 2)",
                     "paddingTop": "12 * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.4} / {eds.core.const.grid}) - {eds.core.lineHeight.tight.4} - roundTo(12 - ({eds.core.lineHeight.tight.4} - {eds.core.capHeight.rounded.4}) / 2)",
+                    "horizontalPadding": "0",
                     "typography": "{eds.core.typography.tight.4}",
                     "itemSpacing": 0
                   },
@@ -55,6 +60,7 @@
                   "value": {
                     "paddingBottom": "roundTo(12 - ({eds.core.lineHeight.tight.5} - {eds.core.capHeight.rounded.5}) / 2)",
                     "paddingTop": "12 * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.5} / {eds.core.const.grid}) - {eds.core.lineHeight.tight.5} - roundTo(12 - ({eds.core.lineHeight.tight.5} - {eds.core.capHeight.rounded.5}) / 2)",
+                    "horizontalPadding": "0",
                     "typography": "{eds.core.typography.tight.5}",
                     "itemSpacing": 0
                   },
@@ -64,6 +70,7 @@
                   "value": {
                     "paddingBottom": "roundTo(12 - ({eds.core.lineHeight.tight.6} - {eds.core.capHeight.rounded.6}) / 2)",
                     "paddingTop": "12 * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.6} / {eds.core.const.grid}) - {eds.core.lineHeight.tight.6} - roundTo(12 - ({eds.core.lineHeight.tight.6} - {eds.core.capHeight.rounded.6}) / 2)",
+                    "horizontalPadding": "0",
                     "typography": "{eds.core.typography.tight.6}",
                     "itemSpacing": 0
                   },
@@ -73,6 +80,7 @@
                   "value": {
                     "paddingBottom": "roundTo(12 - ({eds.core.lineHeight.tight.7} - {eds.core.capHeight.rounded.7}) / 2)",
                     "paddingTop": "12 * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.7} / {eds.core.const.grid}) - {eds.core.lineHeight.tight.7} - roundTo(12 - ({eds.core.lineHeight.tight.7} - {eds.core.capHeight.rounded.7}) / 2)",
+                    "horizontalPadding": "0",
                     "typography": "{eds.core.typography.tight.7}",
                     "itemSpacing": 0
                   },
@@ -82,6 +90,7 @@
                   "value": {
                     "paddingBottom": "roundTo(12 - ({eds.core.lineHeight.tight.8} - {eds.core.capHeight.rounded.8}) / 2)",
                     "paddingTop": "12 * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.8} / {eds.core.const.grid}) - {eds.core.lineHeight.tight.8} - roundTo(12 - ({eds.core.lineHeight.tight.8} - {eds.core.capHeight.rounded.8}) / 2)",
+                    "horizontalPadding": "0",
                     "typography": "{eds.core.typography.tight.8}",
                     "itemSpacing": 0
                   },
@@ -91,6 +100,7 @@
                   "value": {
                     "paddingBottom": "roundTo(12 - ({eds.core.lineHeight.tight.9} - {eds.core.capHeight.rounded.9}) / 2)",
                     "paddingTop": "12 * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.9} / {eds.core.const.grid}) - {eds.core.lineHeight.tight.9} - roundTo(12 - ({eds.core.lineHeight.tight.9} - {eds.core.capHeight.rounded.9}) / 2)",
+                    "horizontalPadding": "0",
                     "typography": "{eds.core.typography.tight.9}",
                     "itemSpacing": 0
                   },
@@ -102,6 +112,7 @@
                   "value": {
                     "paddingBottom": "roundTo(16 - ({eds.core.lineHeight.tight.0} - {eds.core.capHeight.rounded.0}) / 2)",
                     "paddingTop": "16 * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.0} / {eds.core.const.grid}) - {eds.core.lineHeight.tight.0} - roundTo(16 - ({eds.core.lineHeight.tight.0} - {eds.core.capHeight.rounded.0}) / 2)",
+                    "horizontalPadding": "0",
                     "typography": "{eds.core.typography.tight.0}",
                     "itemSpacing": 0
                   },
@@ -111,6 +122,7 @@
                   "value": {
                     "paddingBottom": "roundTo(16 - ({eds.core.lineHeight.tight.1} - {eds.core.capHeight.rounded.1}) / 2)",
                     "paddingTop": "16 * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.1} / {eds.core.const.grid}) - {eds.core.lineHeight.tight.1} - roundTo(16 - ({eds.core.lineHeight.tight.1} - {eds.core.capHeight.rounded.1}) / 2)",
+                    "horizontalPadding": "0",
                     "typography": "{eds.core.typography.tight.1}",
                     "itemSpacing": 0
                   },
@@ -120,6 +132,7 @@
                   "value": {
                     "paddingBottom": "roundTo(16 - ({eds.core.lineHeight.tight.2} - {eds.core.capHeight.rounded.2}) / 2)",
                     "paddingTop": "16 * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.2} / {eds.core.const.grid}) - {eds.core.lineHeight.tight.2} - roundTo(16 - ({eds.core.lineHeight.tight.2} - {eds.core.capHeight.rounded.2}) / 2)",
+                    "horizontalPadding": "0",
                     "typography": "{eds.core.typography.tight.2}",
                     "itemSpacing": 0
                   },
@@ -129,6 +142,7 @@
                   "value": {
                     "paddingBottom": "roundTo(16 - ({eds.core.lineHeight.tight.3} - {eds.core.capHeight.rounded.3}) / 2)",
                     "paddingTop": "16 * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.3} / {eds.core.const.grid}) - {eds.core.lineHeight.tight.3} - roundTo(16 - ({eds.core.lineHeight.tight.3} - {eds.core.capHeight.rounded.3}) / 2)",
+                    "horizontalPadding": "0",
                     "typography": "{eds.core.typography.tight.3}",
                     "itemSpacing": 0
                   },
@@ -138,6 +152,7 @@
                   "value": {
                     "paddingBottom": "roundTo(16 - ({eds.core.lineHeight.tight.4} - {eds.core.capHeight.rounded.4}) / 2)",
                     "paddingTop": "16 * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.4} / {eds.core.const.grid}) - {eds.core.lineHeight.tight.4} - roundTo(16 - ({eds.core.lineHeight.tight.4} - {eds.core.capHeight.rounded.4}) / 2)",
+                    "horizontalPadding": "0",
                     "typography": "{eds.core.typography.tight.4}",
                     "itemSpacing": 0
                   },
@@ -147,6 +162,7 @@
                   "value": {
                     "paddingBottom": "roundTo(16 - ({eds.core.lineHeight.tight.5} - {eds.core.capHeight.rounded.5}) / 2)",
                     "paddingTop": "16 * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.5} / {eds.core.const.grid}) - {eds.core.lineHeight.tight.5} - roundTo(16 - ({eds.core.lineHeight.tight.5} - {eds.core.capHeight.rounded.5}) / 2)",
+                    "horizontalPadding": "0",
                     "typography": "{eds.core.typography.tight.5}",
                     "itemSpacing": 0
                   },
@@ -156,6 +172,7 @@
                   "value": {
                     "paddingBottom": "roundTo(16 - ({eds.core.lineHeight.tight.6} - {eds.core.capHeight.rounded.6}) / 2)",
                     "paddingTop": "16 * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.6} / {eds.core.const.grid}) - {eds.core.lineHeight.tight.6} - roundTo(16 - ({eds.core.lineHeight.tight.6} - {eds.core.capHeight.rounded.6}) / 2)",
+                    "horizontalPadding": "0",
                     "typography": "{eds.core.typography.tight.6}",
                     "itemSpacing": 0
                   },
@@ -165,6 +182,7 @@
                   "value": {
                     "paddingBottom": "roundTo(16 - ({eds.core.lineHeight.tight.7} - {eds.core.capHeight.rounded.7}) / 2)",
                     "paddingTop": "16 * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.7} / {eds.core.const.grid}) - {eds.core.lineHeight.tight.7} - roundTo(16 - ({eds.core.lineHeight.tight.7} - {eds.core.capHeight.rounded.7}) / 2)",
+                    "horizontalPadding": "0",
                     "typography": "{eds.core.typography.tight.7}",
                     "itemSpacing": 0
                   },
@@ -174,6 +192,7 @@
                   "value": {
                     "paddingBottom": "roundTo(16 - ({eds.core.lineHeight.tight.8} - {eds.core.capHeight.rounded.8}) / 2)",
                     "paddingTop": "16 * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.8} / {eds.core.const.grid}) - {eds.core.lineHeight.tight.8} - roundTo(16 - ({eds.core.lineHeight.tight.8} - {eds.core.capHeight.rounded.8}) / 2)",
+                    "horizontalPadding": "0",
                     "typography": "{eds.core.typography.tight.8}",
                     "itemSpacing": 0
                   },
@@ -183,6 +202,7 @@
                   "value": {
                     "paddingBottom": "roundTo(16 - ({eds.core.lineHeight.tight.9} - {eds.core.capHeight.rounded.9}) / 2)",
                     "paddingTop": "16 * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.9} / {eds.core.const.grid}) - {eds.core.lineHeight.tight.9} - roundTo(16 - ({eds.core.lineHeight.tight.9} - {eds.core.capHeight.rounded.9}) / 2)",
+                    "horizontalPadding": "0",
                     "typography": "{eds.core.typography.tight.9}",
                     "itemSpacing": 0
                   },
@@ -194,8 +214,9 @@
               "verticalPadding12": {
                 "0": {
                   "value": {
-                    "paddingTop": "(12 * 2 + {eds.core.capHeight.snappedToGrid.0} - {eds.core.lineHeight.tight.0}) / 2",
                     "paddingBottom": "(12 * 2 + {eds.core.capHeight.snappedToGrid.0} - {eds.core.lineHeight.tight.0}) / 2",
+                    "paddingTop": "(12 * 2 + {eds.core.capHeight.snappedToGrid.0} - {eds.core.lineHeight.tight.0}) / 2",
+                    "horizontalPadding": "0",
                     "typography": "{eds.core.typography.tight.0}",
                     "itemSpacing": 0
                   },
@@ -203,8 +224,9 @@
                 },
                 "1": {
                   "value": {
-                    "paddingTop": "(12 * 2 + {eds.core.capHeight.snappedToGrid.1} - {eds.core.lineHeight.tight.1}) / 2",
                     "paddingBottom": "(12 * 2 + {eds.core.capHeight.snappedToGrid.1} - {eds.core.lineHeight.tight.1}) / 2",
+                    "paddingTop": "(12 * 2 + {eds.core.capHeight.snappedToGrid.1} - {eds.core.lineHeight.tight.1}) / 2",
+                    "horizontalPadding": "0",
                     "typography": "{eds.core.typography.tight.1}",
                     "itemSpacing": 0
                   },
@@ -212,8 +234,9 @@
                 },
                 "2": {
                   "value": {
-                    "paddingTop": "(12 * 2 + {eds.core.capHeight.snappedToGrid.2} - {eds.core.lineHeight.tight.2}) / 2",
                     "paddingBottom": "(12 * 2 + {eds.core.capHeight.snappedToGrid.2} - {eds.core.lineHeight.tight.2}) / 2",
+                    "paddingTop": "(12 * 2 + {eds.core.capHeight.snappedToGrid.2} - {eds.core.lineHeight.tight.2}) / 2",
+                    "horizontalPadding": "0",
                     "typography": "{eds.core.typography.tight.2}",
                     "itemSpacing": 0
                   },
@@ -221,8 +244,9 @@
                 },
                 "3": {
                   "value": {
-                    "paddingTop": "(12 * 2 + {eds.core.capHeight.snappedToGrid.3} - {eds.core.lineHeight.tight.3}) / 2",
                     "paddingBottom": "(12 * 2 + {eds.core.capHeight.snappedToGrid.3} - {eds.core.lineHeight.tight.3}) / 2",
+                    "paddingTop": "(12 * 2 + {eds.core.capHeight.snappedToGrid.3} - {eds.core.lineHeight.tight.3}) / 2",
+                    "horizontalPadding": "0",
                     "typography": "{eds.core.typography.tight.3}",
                     "itemSpacing": 0
                   },
@@ -230,8 +254,9 @@
                 },
                 "4": {
                   "value": {
-                    "paddingTop": "(12 * 2 + {eds.core.capHeight.snappedToGrid.4} - {eds.core.lineHeight.tight.4}) / 2",
                     "paddingBottom": "(12 * 2 + {eds.core.capHeight.snappedToGrid.4} - {eds.core.lineHeight.tight.4}) / 2",
+                    "paddingTop": "(12 * 2 + {eds.core.capHeight.snappedToGrid.4} - {eds.core.lineHeight.tight.4}) / 2",
+                    "horizontalPadding": "0",
                     "typography": "{eds.core.typography.tight.4}",
                     "itemSpacing": 0
                   },
@@ -239,8 +264,9 @@
                 },
                 "5": {
                   "value": {
-                    "paddingTop": "(12 * 2 + {eds.core.capHeight.snappedToGrid.5} - {eds.core.lineHeight.tight.5}) / 2",
                     "paddingBottom": "(12 * 2 + {eds.core.capHeight.snappedToGrid.5} - {eds.core.lineHeight.tight.5}) / 2",
+                    "paddingTop": "(12 * 2 + {eds.core.capHeight.snappedToGrid.5} - {eds.core.lineHeight.tight.5}) / 2",
+                    "horizontalPadding": "0",
                     "typography": "{eds.core.typography.tight.5}",
                     "itemSpacing": 0
                   },
@@ -248,8 +274,9 @@
                 },
                 "6": {
                   "value": {
-                    "paddingTop": "(12 * 2 + {eds.core.capHeight.snappedToGrid.6} - {eds.core.lineHeight.tight.6}) / 2",
                     "paddingBottom": "(12 * 2 + {eds.core.capHeight.snappedToGrid.6} - {eds.core.lineHeight.tight.6}) / 2",
+                    "paddingTop": "(12 * 2 + {eds.core.capHeight.snappedToGrid.6} - {eds.core.lineHeight.tight.6}) / 2",
+                    "horizontalPadding": "0",
                     "typography": "{eds.core.typography.tight.6}",
                     "itemSpacing": 0
                   },
@@ -257,8 +284,9 @@
                 },
                 "7": {
                   "value": {
-                    "paddingTop": "(12 * 2 + {eds.core.capHeight.snappedToGrid.7} - {eds.core.lineHeight.tight.7}) / 2",
                     "paddingBottom": "(12 * 2 + {eds.core.capHeight.snappedToGrid.7} - {eds.core.lineHeight.tight.7}) / 2",
+                    "paddingTop": "(12 * 2 + {eds.core.capHeight.snappedToGrid.7} - {eds.core.lineHeight.tight.7}) / 2",
+                    "horizontalPadding": "0",
                     "typography": "{eds.core.typography.tight.7}",
                     "itemSpacing": 0
                   },
@@ -266,8 +294,9 @@
                 },
                 "8": {
                   "value": {
-                    "paddingTop": "(12 * 2 + {eds.core.capHeight.snappedToGrid.8} - {eds.core.lineHeight.tight.8}) / 2",
                     "paddingBottom": "(12 * 2 + {eds.core.capHeight.snappedToGrid.8} - {eds.core.lineHeight.tight.8}) / 2",
+                    "paddingTop": "(12 * 2 + {eds.core.capHeight.snappedToGrid.8} - {eds.core.lineHeight.tight.8}) / 2",
+                    "horizontalPadding": "0",
                     "typography": "{eds.core.typography.tight.8}",
                     "itemSpacing": 0
                   },
@@ -275,8 +304,9 @@
                 },
                 "9": {
                   "value": {
-                    "paddingTop": "(12 * 2 + {eds.core.capHeight.snappedToGrid.9} - {eds.core.lineHeight.tight.9}) / 2",
                     "paddingBottom": "(12 * 2 + {eds.core.capHeight.snappedToGrid.9} - {eds.core.lineHeight.tight.9}) / 2",
+                    "paddingTop": "(12 * 2 + {eds.core.capHeight.snappedToGrid.9} - {eds.core.lineHeight.tight.9}) / 2",
+                    "horizontalPadding": "0",
                     "typography": "{eds.core.typography.tight.9}",
                     "itemSpacing": 0
                   },
@@ -286,8 +316,9 @@
               "verticalPadding16": {
                 "0": {
                   "value": {
-                    "paddingTop": "(16 * 2 + {eds.core.capHeight.snappedToGrid.0} - {eds.core.lineHeight.tight.0}) / 2",
                     "paddingBottom": "(16 * 2 + {eds.core.capHeight.snappedToGrid.0} - {eds.core.lineHeight.tight.0}) / 2",
+                    "paddingTop": "(16 * 2 + {eds.core.capHeight.snappedToGrid.0} - {eds.core.lineHeight.tight.0}) / 2",
+                    "horizontalPadding": "0",
                     "typography": "{eds.core.typography.tight.0}",
                     "itemSpacing": 0
                   },
@@ -295,8 +326,9 @@
                 },
                 "1": {
                   "value": {
-                    "paddingTop": "(16 * 2 + {eds.core.capHeight.snappedToGrid.1} - {eds.core.lineHeight.tight.1}) / 2",
                     "paddingBottom": "(16 * 2 + {eds.core.capHeight.snappedToGrid.1} - {eds.core.lineHeight.tight.1}) / 2",
+                    "paddingTop": "(16 * 2 + {eds.core.capHeight.snappedToGrid.1} - {eds.core.lineHeight.tight.1}) / 2",
+                    "horizontalPadding": "0",
                     "typography": "{eds.core.typography.tight.1}",
                     "itemSpacing": 0
                   },
@@ -304,8 +336,9 @@
                 },
                 "2": {
                   "value": {
-                    "paddingTop": "(16 * 2 + {eds.core.capHeight.snappedToGrid.2} - {eds.core.lineHeight.tight.2}) / 2",
                     "paddingBottom": "(16 * 2 + {eds.core.capHeight.snappedToGrid.2} - {eds.core.lineHeight.tight.2}) / 2",
+                    "paddingTop": "(16 * 2 + {eds.core.capHeight.snappedToGrid.2} - {eds.core.lineHeight.tight.2}) / 2",
+                    "horizontalPadding": "0",
                     "typography": "{eds.core.typography.tight.2}",
                     "itemSpacing": 0
                   },
@@ -313,8 +346,9 @@
                 },
                 "3": {
                   "value": {
-                    "paddingTop": "(16 * 2 + {eds.core.capHeight.snappedToGrid.3} - {eds.core.lineHeight.tight.3}) / 2",
                     "paddingBottom": "(16 * 2 + {eds.core.capHeight.snappedToGrid.3} - {eds.core.lineHeight.tight.3}) / 2",
+                    "paddingTop": "(16 * 2 + {eds.core.capHeight.snappedToGrid.3} - {eds.core.lineHeight.tight.3}) / 2",
+                    "horizontalPadding": "0",
                     "typography": "{eds.core.typography.tight.3}",
                     "itemSpacing": 0
                   },
@@ -322,8 +356,9 @@
                 },
                 "4": {
                   "value": {
-                    "paddingTop": "(16 * 2 + {eds.core.capHeight.snappedToGrid.4} - {eds.core.lineHeight.tight.4}) / 2",
                     "paddingBottom": "(16 * 2 + {eds.core.capHeight.snappedToGrid.4} - {eds.core.lineHeight.tight.4}) / 2",
+                    "paddingTop": "(16 * 2 + {eds.core.capHeight.snappedToGrid.4} - {eds.core.lineHeight.tight.4}) / 2",
+                    "horizontalPadding": "0",
                     "typography": "{eds.core.typography.tight.4}",
                     "itemSpacing": 0
                   },
@@ -331,8 +366,9 @@
                 },
                 "5": {
                   "value": {
-                    "paddingTop": "(16 * 2 + {eds.core.capHeight.snappedToGrid.5} - {eds.core.lineHeight.tight.5}) / 2",
                     "paddingBottom": "(16 * 2 + {eds.core.capHeight.snappedToGrid.5} - {eds.core.lineHeight.tight.5}) / 2",
+                    "paddingTop": "(16 * 2 + {eds.core.capHeight.snappedToGrid.5} - {eds.core.lineHeight.tight.5}) / 2",
+                    "horizontalPadding": "0",
                     "typography": "{eds.core.typography.tight.5}",
                     "itemSpacing": 0
                   },
@@ -340,8 +376,9 @@
                 },
                 "6": {
                   "value": {
-                    "paddingTop": "(16 * 2 + {eds.core.capHeight.snappedToGrid.6} - {eds.core.lineHeight.tight.6}) / 2",
                     "paddingBottom": "(16 * 2 + {eds.core.capHeight.snappedToGrid.6} - {eds.core.lineHeight.tight.6}) / 2",
+                    "paddingTop": "(16 * 2 + {eds.core.capHeight.snappedToGrid.6} - {eds.core.lineHeight.tight.6}) / 2",
+                    "horizontalPadding": "0",
                     "typography": "{eds.core.typography.tight.6}",
                     "itemSpacing": 0
                   },
@@ -349,8 +386,9 @@
                 },
                 "7": {
                   "value": {
-                    "paddingTop": "(16 * 2 + {eds.core.capHeight.snappedToGrid.7} - {eds.core.lineHeight.tight.7}) / 2",
                     "paddingBottom": "(16 * 2 + {eds.core.capHeight.snappedToGrid.7} - {eds.core.lineHeight.tight.7}) / 2",
+                    "paddingTop": "(16 * 2 + {eds.core.capHeight.snappedToGrid.7} - {eds.core.lineHeight.tight.7}) / 2",
+                    "horizontalPadding": "0",
                     "typography": "{eds.core.typography.tight.7}",
                     "itemSpacing": 0
                   },
@@ -358,8 +396,9 @@
                 },
                 "8": {
                   "value": {
-                    "paddingTop": "(16 * 2 + {eds.core.capHeight.snappedToGrid.8} - {eds.core.lineHeight.tight.8}) / 2",
                     "paddingBottom": "(16 * 2 + {eds.core.capHeight.snappedToGrid.8} - {eds.core.lineHeight.tight.8}) / 2",
+                    "paddingTop": "(16 * 2 + {eds.core.capHeight.snappedToGrid.8} - {eds.core.lineHeight.tight.8}) / 2",
+                    "horizontalPadding": "0",
                     "typography": "{eds.core.typography.tight.8}",
                     "itemSpacing": 0
                   },
@@ -367,8 +406,9 @@
                 },
                 "9": {
                   "value": {
-                    "paddingTop": "(16 * 2 + {eds.core.capHeight.snappedToGrid.9} - {eds.core.lineHeight.tight.9}) / 2",
                     "paddingBottom": "(16 * 2 + {eds.core.capHeight.snappedToGrid.9} - {eds.core.lineHeight.tight.9}) / 2",
+                    "paddingTop": "(16 * 2 + {eds.core.capHeight.snappedToGrid.9} - {eds.core.lineHeight.tight.9}) / 2",
+                    "horizontalPadding": "0",
                     "typography": "{eds.core.typography.tight.9}",
                     "itemSpacing": 0
                   },

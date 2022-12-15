@@ -25,11 +25,13 @@ const type = {
 const verticalSnapped = (density, spacing, typeScale) => ({
   paddingBottom: `roundTo(${spacing} - ({eds.core.lineHeight.${density}.${typeScale}} - {eds.core.capHeight.rounded.${typeScale}}) / 2)`,
   paddingTop: `${spacing} * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.${typeScale}} / {eds.core.const.grid}) - {eds.core.lineHeight.${density}.${typeScale}} - roundTo(${spacing} - ({eds.core.lineHeight.${density}.${typeScale}} - {eds.core.capHeight.rounded.${typeScale}}) / 2)`,
+  horizontalPadding: '0',
 })
 
 const verticalCentered = (density, spacing, typeScale) => ({
   paddingBottom: `(${spacing} * 2 + {eds.core.capHeight.snappedToGrid.${typeScale}} - {eds.core.lineHeight.${density}.${typeScale}}) / 2`,
   paddingTop: `(${spacing} * 2 + {eds.core.capHeight.snappedToGrid.${typeScale}} - {eds.core.lineHeight.${density}.${typeScale}}) / 2`,
+  horizontalPadding: '0',
 })
 
 const template = (density, snapped, vertSpace, typeScale) => ({
