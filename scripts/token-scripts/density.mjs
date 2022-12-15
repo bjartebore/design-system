@@ -28,8 +28,8 @@ const verticalSnapped = (density, spacing, typeScale) => ({
 })
 
 const verticalCentered = (density, spacing, typeScale) => ({
-  paddingTop: `(${spacing} * 2 + {eds.core.capHeight.snappedToGrid.${typeScale}} - {eds.core.lineHeight.${density}.${typeScale}}) / 2`,
   paddingBottom: `(${spacing} * 2 + {eds.core.capHeight.snappedToGrid.${typeScale}} - {eds.core.lineHeight.${density}.${typeScale}}) / 2`,
+  paddingTop: `(${spacing} * 2 + {eds.core.capHeight.snappedToGrid.${typeScale}} - {eds.core.lineHeight.${density}.${typeScale}}) / 2`,
 })
 
 const template = (density, snapped, vertSpace, typeScale) => ({
