@@ -28,7 +28,8 @@
               "value": {
                 "typography": "{eds.core.spacing.block.tight.offGrid.verticalPadding12.2.typography}",
                 "paddingTop": "{eds.core.spacing.block.tight.offGrid.verticalPadding12.2.paddingTop}",
-                "paddingBottom": "{eds.core.spacing.block.tight.offGrid.verticalPadding12.2.paddingTop}",
+                "paddingBottom": "{eds.core.spacing.block.tight.offGrid.verticalPadding12.2.paddingBottom}",
+                "horizontalPadding": "{eds.core.spacing.block.tight.offGrid.verticalPadding12.2.horizontalPadding}",
                 "itemSpacing": "{eds.core.spacing.block.tight.offGrid.verticalPadding12.2.itemSpacing}"
               },
               "type": "composition"
@@ -37,8 +38,9 @@
               "value": {
                 "typography": "{eds.core.spacing.block.tight.offGrid.verticalPadding12.3.typography}",
                 "paddingTop": "{eds.core.spacing.block.tight.offGrid.verticalPadding12.3.paddingTop}",
-                "paddingBottom": "{eds.core.spacing.block.tight.offGrid.verticalPadding12.3.paddingTop}",
-                "itemSpacing": "{eds.core.spacing.block.tight.offGrid.verticalPadding12.2.itemSpacing}"
+                "paddingBottom": "{eds.core.spacing.block.tight.offGrid.verticalPadding12.3.paddingBottom}",
+                "horizontalPadding": "{eds.core.spacing.block.tight.offGrid.verticalPadding12.3.horizontalPadding}",
+                "itemSpacing": "{eds.core.spacing.block.tight.offGrid.verticalPadding12.3.itemSpacing}"
               },
               "type": "composition"
             }
@@ -48,7 +50,8 @@
               "value": {
                 "typography": "{eds.core.spacing.block.tight.onGrid.verticalPadding12.2.typography}",
                 "paddingTop": "{eds.core.spacing.block.tight.onGrid.verticalPadding12.2.paddingTop}",
-                "paddingBottom": "{eds.core.spacing.block.tight.onGrid.verticalPadding12.2.paddingTop}",
+                "paddingBottom": "{eds.core.spacing.block.tight.onGrid.verticalPadding12.2.paddingBottom}",
+                "horizontalPadding": "{eds.core.spacing.block.tight.onGrid.verticalPadding12.2.horizontalPadding}",
                 "itemSpacing": "{eds.core.spacing.block.tight.offGrid.verticalPadding12.2.itemSpacing}"
               },
               "type": "composition"
@@ -57,7 +60,8 @@
               "value": {
                 "typography": "{eds.core.spacing.block.tight.onGrid.verticalPadding12.3.typography}",
                 "paddingTop": "{eds.core.spacing.block.tight.onGrid.verticalPadding12.3.paddingTop}",
-                "paddingBottom": "{eds.core.spacing.block.tight.onGrid.verticalPadding12.3.paddingTop}",
+                "paddingBottom": "{eds.core.spacing.block.tight.onGrid.verticalPadding12.3.paddingBottom}",
+                "horizontalPadding": "{eds.core.spacing.block.tight.onGrid.verticalPadding12.3.horizontalPadding}",
                 "itemSpacing": "{eds.core.spacing.block.tight.offGrid.verticalPadding12.2.itemSpacing}"
               },
               "type": "composition"
