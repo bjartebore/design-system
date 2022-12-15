@@ -21,68 +21,70 @@
           }
         }
       },
-      "label": {
-        "offGrid": {
+      "actions": {
+        "label": {
+          "offGrid": {
+            "medium": {
+              "value": {
+                "fontSizes": "{eds.core.fontSize.2}",
+                "lineHeights": "{eds.core.lineHeight.tight.2}",
+                "verticalPadding": "({eds.core.sizing.icon.default} - {eds.core.lineHeight.tight.2}) / 2",
+                "horizontalPadding": "{eds.core.spacing.4}",
+                "itemSpacing": "{eds.core.spacing.0}"
+              },
+              "type": "composition"
+            },
+            "large": {
+              "value": {
+                "fontSizes": "{eds.core.fontSize.3}",
+                "lineHeights": "{eds.core.lineHeight.tight.3}",
+                "verticalPadding": "({eds.core.sizing.icon.default} - {eds.core.lineHeight.tight.3}) / 2",
+                "horizontalPadding": "{eds.core.spacing.4}",
+                "itemSpacing": "{eds.core.spacing.0}"
+              },
+              "type": "composition"
+            }
+          },
+          "onGrid": {
+            "medium": {
+              "value": {
+                "fontSizes": "{eds.core.fontSize.2}",
+                "lineHeights": "{eds.core.lineHeight.tight.2}",
+                "paddingBottom": "roundTo({eds.core.spacing.4} - ({eds.core.lineHeight.tight.2} - {eds.core.capHeight.rounded.2}) / 2)",
+                "paddingTop": "{eds.core.spacing.4} * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.2} / {eds.core.const.grid}) - {eds.core.lineHeight.tight.2} - roundTo({eds.core.spacing.4} - ({eds.core.lineHeight.tight.2} - {eds.core.capHeight.rounded.2}) / 2)",
+                "horizontalPadding": "{eds.core.spacing.4}",
+                "itemSpacing": "{eds.core.spacing.0}"
+              },
+              "type": "composition"
+            },
+            "large": {
+              "value": {
+                "fontSizes": "{eds.core.fontSize.3}",
+                "lineHeights": "{eds.core.lineHeight.tight.2}",
+                "paddingBottom": "roundTo({eds.core.spacing.4} - ({eds.core.lineHeight.tight.3} - {eds.core.capHeight.rounded.2}) / 2)",
+                "paddingTop": "{eds.core.spacing.4} * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.3} / {eds.core.const.grid}) - {eds.core.lineHeight.tight.3} - roundTo({eds.core.spacing.4} - ({eds.core.lineHeight.tight.3} - {eds.core.capHeight.rounded.3}) / 2)",
+                "horizontalPadding": "{eds.core.spacing.4}",
+                "itemSpacing": "{eds.core.spacing.0}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "element": {
           "medium": {
             "value": {
-              "fontSizes": "{eds.core.fontSize.2}",
-              "lineHeights": "{eds.core.lineHeight.tight.2}",
-              "verticalPadding": "({eds.core.sizing.icon.default} - {eds.core.lineHeight.tight.2}) / 2",
-              "horizontalPadding": "{eds.core.spacing.4}",
-              "itemSpacing": "{eds.core.spacing.0}"
+              "horizontalPadding": "{eds.core.spacing.step.12}",
+              "verticalPadding": "({eds.core.sizing.cta.height.medium} - ({eds.semantic.actions.label.offGrid.medium.lineHeights} + {eds.semantic.actions.label.offGrid.medium.verticalPadding} * 2)) / 2"
             },
             "type": "composition"
           },
           "large": {
             "value": {
-              "fontSizes": "{eds.core.fontSize.3}",
-              "lineHeights": "{eds.core.lineHeight.tight.3}",
-              "verticalPadding": "({eds.core.sizing.icon.default} - {eds.core.lineHeight.tight.3}) / 2",
-              "horizontalPadding": "{eds.core.spacing.4}",
-              "itemSpacing": "{eds.core.spacing.0}"
+              "horizontalPadding": "{eds.core.spacing.step.12}",
+              "verticalPadding": "({eds.core.sizing.cta.height.large} - ({eds.semantic.actions.label.offGrid.large.lineHeights} + {eds.semantic.actions.label.offGrid.large.verticalPadding} * 2)) / 2"
             },
             "type": "composition"
           }
-        },
-        "onGrid": {
-          "medium": {
-            "value": {
-              "fontSizes": "{eds.core.fontSize.2}",
-              "lineHeights": "{eds.core.lineHeight.tight.2}",
-              "paddingBottom": "roundTo({eds.core.spacing.4} - ({eds.core.lineHeight.tight.2} - {eds.core.capHeight.rounded.2}) / 2)",
-              "paddingTop": "{eds.core.spacing.4} * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.2} / {eds.core.const.grid}) - {eds.core.lineHeight.tight.2} - roundTo({eds.core.spacing.4} - ({eds.core.lineHeight.tight.2} - {eds.core.capHeight.rounded.2}) / 2)",
-              "horizontalPadding": "{eds.core.spacing.4}",
-              "itemSpacing": "{eds.core.spacing.0}"
-            },
-            "type": "composition"
-          },
-          "large": {
-            "value": {
-              "fontSizes": "{eds.core.fontSize.3}",
-              "lineHeights": "{eds.core.lineHeight.tight.2}",
-              "paddingBottom": "roundTo({eds.core.spacing.4} - ({eds.core.lineHeight.tight.3} - {eds.core.capHeight.rounded.2}) / 2)",
-              "paddingTop": "{eds.core.spacing.4} * 2 + {eds.core.const.grid} * ceil({eds.core.capHeight.rounded.3} / {eds.core.const.grid}) - {eds.core.lineHeight.tight.3} - roundTo({eds.core.spacing.4} - ({eds.core.lineHeight.tight.3} - {eds.core.capHeight.rounded.3}) / 2)",
-              "horizontalPadding": "{eds.core.spacing.4}",
-              "itemSpacing": "{eds.core.spacing.0}"
-            },
-            "type": "composition"
-          }
-        }
-      },
-      "container": {
-        "medium": {
-          "value": {
-            "horizontalPadding": "{eds.core.spacing.12}",
-            "verticalPadding": "({eds.core.sizing.cta.height.medium} - ({eds.semantic.label.offGrid.medium.lineHeights} + {eds.semantic.label.offGrid.medium.verticalPadding} * 2)) / 2"
-          },
-          "type": "composition"
-        },
-        "large": {
-          "value": {
-            "horizontalPadding": "{eds.core.spacing.12}",
-            "verticalPadding": "({eds.core.sizing.cta.height.large} - ({eds.semantic.label.offGrid.large.lineHeights} + {eds.semantic.label.offGrid.large.verticalPadding} * 2)) / 2"
-          },
-          "type": "composition"
         }
       },
       "border": {
