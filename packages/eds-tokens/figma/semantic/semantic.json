@@ -89,7 +89,9 @@
         "element": {
           "medium": {
             "value": {
-              "typography": "{eds.core.spacing.block.tight.offGrid.verticalPadding12.3.typography}"
+              "typography": "{eds.core.spacing.block.tight.offGrid.verticalPadding12.3.typography}",
+              "paddingTop": "{eds.core.spacing.block.tight.offGrid.verticalPadding12.3.paddingTop}",
+              "paddingBottom": "{eds.core.spacing.block.tight.offGrid.verticalPadding12.3.paddingTop}"
             },
             "type": "composition"
           }
