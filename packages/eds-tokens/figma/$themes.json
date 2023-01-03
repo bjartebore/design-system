@@ -12,14 +12,7 @@
       "readonly/spacing": "enabled",
       "readonly/tight": "enabled",
       "semantic/semantic": "enabled",
-      "theme/default": "disabled",
-      "theme/comfortable": "disabled",
-      "theme/compact": "disabled",
-      "theme/light": "disabled",
-      "theme/dark": "disabled",
-      "debug": "disabled",
-      "component/button": "enabled",
-      "component/buttonAlt": "disabled"
+      "component/button": "enabled"
     },
     "$figmaStyleReferences": {}
   }
